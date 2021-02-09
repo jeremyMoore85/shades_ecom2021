@@ -37,7 +37,7 @@
 <link href="<?php echo get_template_directory_uri()?>/css/custom.css" rel="stylesheet" type="text/css" />
 <link media="screen" rel="stylesheet" href="/css/colorbox.css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<?php if(is_front_page()):?>
+<?php //if(is_front_page()):?>
 <script src="/js/responsiveslides.min.js"></script>
 <script>
 jQuery(function () {
@@ -57,7 +57,7 @@ jQuery(function () {
 
 });
 </script>
-<?php endif; ?>
+<?php// endif; ?>
 <script src="/js/jquery.colorbox.js"></script>
 <script>
 	jQuery(document).ready(function(){
