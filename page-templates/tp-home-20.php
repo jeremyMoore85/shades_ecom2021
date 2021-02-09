@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home Banner Increase 10 Page Template
+ * Template Name: Home Banner Increase 20 Page Template
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
