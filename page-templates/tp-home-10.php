@@ -15,7 +15,7 @@ global $post;
 <div class="container-fluid">
   <div class="row col-flex">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center mb-sm-20" style="height:100%;">
-      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades-ecom2021/images/best-sleepwear.jpg');"> <a href="/product-category/best-sleepwear/" class="cta_link"></a>
+      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades_ecom2021/images/best-sleepwear.jpg');"> <a href="/product-category/best-sleepwear/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
             <h2>Our Best Selling Sleepwear</h2>
@@ -25,7 +25,7 @@ global $post;
       </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center mb-sm-20" style="height:100%;">
-      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades-ecom2021/images/best-pillow.jpg');"> <a href="/product-category/best-duvets-pillows/" class="cta_link"></a>
+      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades_ecom2021/images/best-pillow.jpg');"> <a href="/product-category/best-duvets-pillows/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
             <h2>Our Best Selling Duvets &amp; Pillows</h2>
@@ -35,7 +35,7 @@ global $post;
       </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center mb-sm-20" style="height:100%;">
-      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades-ecom2021/images/best-sheets.jpg');"> <a href="/product-category/best-sheets/" class="cta_link"></a>
+      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades_ecom2021/images/best-sheets.jpg');"> <a href="/product-category/best-sheets/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
             <h2>Our Best Selling Sheets</h2>
@@ -45,7 +45,7 @@ global $post;
       </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center mb-sm-20" style="height:100%;">
-      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades-ecom2021/images/best-linens.jpg');"> <a href="/product-category/best-linens/" class="cta_link"></a>
+      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades_ecom2021/images/best-linens.jpg');"> <a href="/product-category/best-linens/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
             <h2>Featured Bed Linens<br />On Sale</h2>
