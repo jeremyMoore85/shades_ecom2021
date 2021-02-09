@@ -78,7 +78,7 @@ jQuery(function () {
 </script>
 </head>
 
-<body <?php body_class(); ?>>
+<body class="home page-template page-template-page-templates page-template-tp-home page-template-page-templatestp-home-php page page-id-256 theme-shades_ecom2021 woocommerce-js group-blog masthead-fixed full-width grid">
 <?php //if(is_front_page()):?>
 <script type="text/javascript">
 	jQuery(document).ready(function($){
