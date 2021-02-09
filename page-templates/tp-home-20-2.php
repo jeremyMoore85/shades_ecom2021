@@ -7,7 +7,7 @@
  * @since Twenty Fourteen 1.0
  */
 
-get_header('twenty2');
+get_header('twentytwo');
 global $post;
 ?>
 <!-- Container Start -->
