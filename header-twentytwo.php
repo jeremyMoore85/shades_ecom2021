@@ -181,7 +181,7 @@ jQuery(function () {
 <?php// if(is_front_page()):?>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-lg-10 offset-lg-1">
+			<div class="col-12 col-lg-10 col-lg-offset-1">
 			
 	<div class="slider_main">
         <div class="callbacks_container">
