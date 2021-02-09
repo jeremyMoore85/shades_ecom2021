@@ -179,6 +179,10 @@ jQuery(function () {
 </div>
 <br clear="all" />
 <?php// if(is_front_page()):?>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+			
 	<div class="slider_main">
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
@@ -191,6 +195,9 @@ jQuery(function () {
           </ul>
         </div>
       </div>
+				</div>
+		</div>
+	</div>
 <?php// endif; ?>
 <br clear="all" />
 <?php// if(is_front_page()):?>
