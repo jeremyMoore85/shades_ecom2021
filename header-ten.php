@@ -79,7 +79,7 @@ jQuery(function () {
 </head>
 
 <body <?php body_class(); ?>>
-<?php if(is_front_page()):?>
+<?php //if(is_front_page()):?>
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 		/* POPUP SCRIPTS */
@@ -161,7 +161,7 @@ jQuery(function () {
 		text-decoration: none;
 	}
 </style>
-<?php endif; ?>
+<?php// endif; ?>
 <div class="mobile_call_top"><a href="tel:403-457-0092">(403) 457-0092</a> | <a href="/contact-store-hours/" class="contact_top">Contact Us</a></div>
 <div id="wrapper">
 <div class="header_top"><div class="header_notification text-center" style="background:#F15C22;color:#fff;padding:5px 0px;">Free Shipping on ALL sleepwear in Canada over $100.00</div>
@@ -178,7 +178,7 @@ jQuery(function () {
   </div>
 </div>
 <br clear="all" />
-<?php if(is_front_page()):?>
+<?php// if(is_front_page()):?>
 	<div class="slider_main">
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
@@ -191,14 +191,14 @@ jQuery(function () {
           </ul>
         </div>
       </div>
-<?php endif; ?>
+<?php// endif; ?>
 <br clear="all" />
-<?php if(is_front_page()):?>
+<?php// if(is_front_page()):?>
 <div id="contain_ld" class="container-fluid">
 <div class="row">
 <div class="col-xs-10 col-xs-offset-1">
-<?php else: ?>
+<?php /*else: ?>
 <div id="contain_ld" class="container">
 <div class="row">
 <div class="col-xs-12">
-<?php endif; ?>
+<?php endif;*/ ?>
