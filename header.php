@@ -243,7 +243,7 @@ jQuery(function () {
             </li>
 			-->
 			<li> <img src="/blog/wp-content/uploads/2021/01/Sedona-Ivory-trim.jpg" alt="Annual Bedding Sale" />
-				<div class="caption"><span class="slide_txt3">Annual Bedding Sale January 23 to February 13.</span></div>
+				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
             </li>
             <li> <img src="/blog/wp-content/uploads/2020/11/christine-vancouver-sale.jpg" alt="Christing Vancouver Sleepwear" />
 				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
