@@ -1355,6 +1355,8 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	background:#333;
 	margin-top:-1rem;
 	z-index:999;
+	transform-origin: center bottom;
+	transition:all ease 1s;
 }
 #catNav .catNavLink a{
 	width:100%;
