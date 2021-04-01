@@ -1366,7 +1366,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	text-align:center;
 	font-weight:bold;
 	transition:all ease 1s;
-	transition-origin: center bottom;
+	transfor-origin: center bottom;
 	
 }
 #catNav .catNavLink:hover a{
