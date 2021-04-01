@@ -1356,9 +1356,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	color:#fff;
 	text-align:center;
 	font-weight:bold;
-	transition:all ease 1s;	
-	position:absolute;
-	top:-1.5rem;
+	transition:all ease 1s;
 }
 #catNav .catNavLink:hover{
 	background:#333;
