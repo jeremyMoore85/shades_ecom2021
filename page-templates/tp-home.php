@@ -11,7 +11,7 @@ get_header();
 global $post;
 ?>
 <!-- Container Start -->
-<?php if($_GET['test']):?>
+<?php if($_GET['test'] == 'true'):?>
 <section id="catNav">
 	<div class="container">
 		<div class="row">
