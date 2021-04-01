@@ -1348,12 +1348,14 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	background:#464646;
 	margin-bottom:2rem; 
 }
+#catnav .catNavLink{
+	padding:2rem 0;
+}
 #catNav .catNavLink a{
 	color:#fff;
 	font-weight:bold;
 	text-transform:uppercase;
 	text-align:center;
-	padding:2rem 0;
 }
 /* ---- Responsive ---- */
 @media(max-width:1129px){
