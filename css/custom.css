@@ -1365,6 +1365,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
     justify-content: center;
     align-items: center;
 	transition:all ease 0.5s;
+	z-index:999;
 }
 #catNav .catNavLink a:hover{
 	height:calc(100% + 2rem);	
