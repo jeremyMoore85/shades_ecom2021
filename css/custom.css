@@ -1353,6 +1353,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	font-weight:bold;
 	text-transform:uppercase;
 	text-align:center;
+	padding:2rem 0;
 }
 /* ---- Responsive ---- */
 @media(max-width:1129px){
