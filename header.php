@@ -263,22 +263,22 @@ jQuery(function () {
 		<div class="col-12 col-lg-10 col-lg-offset-1">
 		<div class="row">
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="#">Cotton Sleepwear</a>
+				<a href="/product-category/cotton-sleepwear/">Cotton Sleepwear</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="#">Flannel Sleepwear</a>
+				<a href="/product-category/flannel-sleepwear/">Flannel Sleepwear</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="#">Bamboo Sleepwear</a>
+				<a href="/product-category/bamboo-sleepwear/">Bamboo Sleepwear</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="#">Wicking Sleepwear</a>
+				<a href="/product-category/wicking-sleepwear/">Wicking Sleepwear</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="#">Robes</a>
+				<a href="/product-category/robes/">Robes</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="#">Mens PJ's &amp; Robes</a>
+				<a href="/product-category/mens-pjs-robes/">Mens PJ's &amp; Robes</a>
 			</div>
 		</div>
 		</div>
