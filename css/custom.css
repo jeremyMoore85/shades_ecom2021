@@ -1344,6 +1344,13 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	background:#464646;
 	margin-bottom:2rem; 
 }
+#catNav .catNavLink{
+	width:100%;
+	padding:1rem 0;
+	display:block;
+	text-transform:uppercase;
+	color:#fff;
+}
 /* ---- Responsive ---- */
 @media(max-width:1129px){
 	.slide_txt3{
