@@ -1353,11 +1353,12 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 }
 #catNav .catNavLink:hover{
 	background:#333;
-	margin-top:0;
+	margin-top:-1rem;
+	z-index:999;
 }
 #catNav .catNavLink a{
 	width:100%;
-	padding:1.25rem 0;
+	padding:1rem 0;
 	height:100%;
 	display:block;
 	text-transform:uppercase;
@@ -1365,11 +1366,12 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	text-align:center;
 	font-weight:bold;
 	transition:all ease 1s;
+	transition-origin: center bottom;
+	
 }
 #catNav .catNavLink:hover a{
 	text-decoration: none;
 	padding:2rem;
-	margin-top:-1rem;
 }
 /* ---- Responsive ---- */
 @media(max-width:1129px){
