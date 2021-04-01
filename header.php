@@ -259,7 +259,8 @@ jQuery(function () {
 <?php if(is_front_page()):?>
 <?php if($_GET['test'] == 'true'):?>
 <section id="catNav">
-	<div class="container">
+	<div class="container-fluid">
+		<div class="col-12 col-lg-10 offset-lg-1">
 		<div class="row">
 			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Cotton Sleepwear</a>
@@ -279,6 +280,7 @@ jQuery(function () {
 			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Mens PJ's &amp; Robes</a>
 			</div>
+		</div>
 		</div>
 	</div>
 </section>
