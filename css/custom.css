@@ -1348,9 +1348,17 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	background:#464646;
 	margin-bottom:2rem; 
 }
-#catNav .catNavLink{
+#catnav .catNavLink{
+	margin-top:1rem;
+}
+#catNav .catNavLink:hover{
+	background:#333;
+	margin-top:-1rem;
+}
+#catNav .catNavLink a{
 	width:100%;
 	padding:1.25rem 0;
+	height:100%;
 	display:block;
 	text-transform:uppercase;
 	color:#fff;
@@ -1358,8 +1366,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	font-weight:bold;
 	transition:all ease 1s;
 }
-#catNav .catNavLink:hover{
-	background:#333;
+#catNav .catNavLink:hover a{
 	text-decoration: none;
 	padding:2rem;
 }

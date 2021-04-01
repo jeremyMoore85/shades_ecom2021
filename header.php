@@ -262,23 +262,23 @@ jQuery(function () {
 	<div class="container-fluid">
 		<div class="col-12 col-lg-10 col-lg-offset-1">
 		<div class="row">
-			<div class="col-12 col-md-4 col-lg-2 p-0">
-				<a href="#" class="catNavLink">Cotton Sleepwear</a>
+			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
+				<a href="#">Cotton Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2 p-0">
-				<a href="#" class="catNavLink">Flannel Sleepwear</a>
+			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
+				<a href="#">Flannel Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2 p-0">
-				<a href="#" class="catNavLink">Bamboo Sleepwear</a>
+			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
+				<a href="#">Bamboo Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2 p-0">
-				<a href="#" class="catNavLink">Wicking Sleepwear</a>
+			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
+				<a href="#">Wicking Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2 p-0">
-				<a href="#" class="catNavLink">Robes</a>
+			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
+				<a href="#">Robes</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2 p-0">
-				<a href="#" class="catNavLink">Mens PJ's &amp; Robes</a>
+			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
+				<a href="#">Mens PJ's &amp; Robes</a>
 			</div>
 		</div>
 		</div>
