@@ -260,7 +260,7 @@ jQuery(function () {
 <?php if($_GET['test'] == 'true'):?>
 <section id="catNav">
 	<div class="container-fluid">
-		<div class="col-12 col-lg-10 offset-lg-1">
+		<div class="col-12 col-lg-10 col-lg-offset-1">
 		<div class="row">
 			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Cotton Sleepwear</a>
