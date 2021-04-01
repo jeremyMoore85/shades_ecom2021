@@ -261,22 +261,22 @@ jQuery(function () {
 <section id="catNav">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Cotton Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Flannel Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Bamboo Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Wicking Sleepwear</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Robes</a>
 			</div>
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 p-0">
 				<a href="#" class="catNavLink">Mens PJ's &amp; Robes</a>
 			</div>
 		</div>
