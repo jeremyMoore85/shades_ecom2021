@@ -1340,6 +1340,10 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	text-decoration:line-through;
 	margin-left:2rem;
 }
+.catNav{
+	background:#464646;
+	margin-bottom:2rem;
+}
 /* ---- Responsive ---- */
 @media(max-width:1129px){
 	.slide_txt3{
