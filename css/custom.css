@@ -1348,7 +1348,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	background:#464646;
 	margin-bottom:2rem; 
 }
-#catnav .catNavLink{
+#catNav .catNavLink{
 	margin-top:1rem;
 }
 #catNav .catNavLink:hover{
