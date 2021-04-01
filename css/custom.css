@@ -1350,10 +1350,12 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	display:block;
 	text-transform:uppercase;
 	color:#fff;
-	text-align:center
+	text-align:center;
+	font-weight:bold;
 }
 #catNav .catNavLink:hover{
 	background:#333;
+	text-decoration: none;
 }
 /* ---- Responsive ---- */
 @media(max-width:1129px){
