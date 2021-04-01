@@ -11,32 +11,7 @@ get_header();
 global $post;
 ?>
 <!-- Container Start -->
-<?php if($_GET['test'] == 'true'):?>
-<section id="catNav">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-md-4 col-lg-2">
-				<a href="#">Cotton Sleepwear</a>
-			</div>
-			<div class="col-12 col-md-4 col-lg-2">
-				<a href="#">Flannel Sleepwear</a>
-			</div>
-			<div class="col-12 col-md-4 col-lg-2">
-				<a href="#">Bamboo Sleepwear</a>
-			</div>
-			<div class="col-12 col-md-4 col-lg-2">
-				<a href="#">Wicking Sleepwear</a>
-			</div>
-			<div class="col-12 col-md-4 col-lg-2">
-				<a href="#">Robes</a>
-			</div>
-			<div class="col-12 col-md-4 col-lg-2">
-				<a href="#">Mens PJ's &amp; Robes</a>
-			</div>
-		</div>
-	</div>
-</section>
-<?php endif; ?>
+
 <div class="container-fluid">
   <div class="row col-flex">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center mb-sm-20" style="height:100%;">

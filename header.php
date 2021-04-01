@@ -257,6 +257,32 @@ jQuery(function () {
 <?php endif; ?>
 <br clear="all" />
 <?php if(is_front_page()):?>
+<?php if($_GET['test'] == 'true'):?>
+<section id="catNav">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-4 col-lg-2">
+				<a href="#">Cotton Sleepwear</a>
+			</div>
+			<div class="col-12 col-md-4 col-lg-2">
+				<a href="#">Flannel Sleepwear</a>
+			</div>
+			<div class="col-12 col-md-4 col-lg-2">
+				<a href="#">Bamboo Sleepwear</a>
+			</div>
+			<div class="col-12 col-md-4 col-lg-2">
+				<a href="#">Wicking Sleepwear</a>
+			</div>
+			<div class="col-12 col-md-4 col-lg-2">
+				<a href="#">Robes</a>
+			</div>
+			<div class="col-12 col-md-4 col-lg-2">
+				<a href="#">Mens PJ's &amp; Robes</a>
+			</div>
+		</div>
+	</div>
+</section>
+<?php endif; ?>
 <div id="contain_ld" class="container-fluid">
 <div class="row">
 <div class="col-xs-10 col-xs-offset-1">
