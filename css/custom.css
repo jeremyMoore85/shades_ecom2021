@@ -25,6 +25,10 @@ display: block;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;	
 }
+.p-0{
+	padding-left:0;
+	padding-right:0;
+}
 .cartBtn{
 	display:flex;
 	flex-wrap:wrap;
