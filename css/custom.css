@@ -1353,6 +1353,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 }
 #catNav .catNavLink:hover{
 	background:#333;
+	margin-top:0;
 }
 #catNav .catNavLink a{
 	width:100%;
