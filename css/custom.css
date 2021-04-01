@@ -1364,10 +1364,12 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
     display: flex;
     justify-content: center;
     align-items: center;
-	transition:all ease 1s;
+	transition:all ease 0.5s;
 }
 #catNav .catNavLink a:hover{
-	padding:1rem 0;
+	height:calc(100% + 2rem);	
+	text-decoration:none;
+	background:#333;
 }
 /* ---- Responsive ---- */
 @media(max-width:1129px){
