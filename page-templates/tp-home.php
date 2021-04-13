@@ -18,7 +18,7 @@ global $post;
       <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades-ecom/images/best-sleepwear.jpg');"> <a href="/product-category/best-sleepwear/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
-            <h2>Our Best Selling Sleepwear</h2>
+            <h2>Our Favorite Loungewear</h2>
           </div>
         </div>
       	<div class="overlay"></div>
@@ -48,7 +48,7 @@ global $post;
       <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades-ecom/images/best-linens.jpg');"> <a href="/product-category/best-linens/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
-            <h2>Featured Bed Linens<br />On Sale</h2>
+            <h2>Our Favorite Bedlinens</h2>
           </div>
         </div>
       	<div class="overlay"></div>
