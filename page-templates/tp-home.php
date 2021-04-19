@@ -15,7 +15,7 @@ global $post;
 <div class="container-fluid">
   <div class="row col-flex">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center mb-sm-20" style="height:100%;">
-      <div class="imageBlock" style="background-image: url('/blog/wp-content/themes/shades-ecom/images/best-sleepwear.jpg');"> <a href="/product-category/best-sleepwear/" class="cta_link"></a>
+      <div class="imageBlock" style="background-image: url('/blog/wp-content/uploads/2021/04/shades-of-sleep-fav-lounge.jpg');"> <a href="/product-category/best-sleepwear/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
             <h2>Our Favorite Loungewear</h2>
