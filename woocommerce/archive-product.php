@@ -158,7 +158,7 @@ if ( woocommerce_product_loop() ) {
 ?>
 <div class="row">
 <?php
-asort($children);
+asort( $children );
 ?>
 <?php
 foreach($children as $child):	
