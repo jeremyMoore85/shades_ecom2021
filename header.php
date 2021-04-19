@@ -257,7 +257,6 @@ jQuery(function () {
 <?php endif; ?>
 <br clear="all" />
 <?php if(is_front_page()):?>
-<?php if($_GET['test'] == 'true'):?>
 <section id="catNav">
 	<div class="container-fluid">
 		<div class="col-12 col-lg-10 col-lg-offset-1">
@@ -284,7 +283,6 @@ jQuery(function () {
 		</div>
 	</div>
 </section>
-<?php endif; ?>
 <div id="contain_ld" class="container-fluid">
 <div class="row">
 <div class="col-xs-10 col-xs-offset-1">
