@@ -242,13 +242,13 @@ jQuery(function () {
 				<div class="caption"><span class="slide_txt3">Annual Bedding Sale January 23 to February 13.</span></div>
             </li>
 			-->
-			<li> <img src="/blog/wp-content/uploads/2021/01/Sedona-Ivory-trim.jpg" alt="Annual Bedding Sale" />
+			<li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-ayrtight.jpg" alt="Shades of Sleep - Ayrtight" />
 				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
             </li>
-            <li> <img src="/blog/wp-content/uploads/2020/11/christine-vancouver-sale.jpg" alt="Christing Vancouver Sleepwear" />
+            <li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-dorset.jpg" alt="Shades of Sleep - Dorset" />
 				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
             </li>
-			<li> <img src="/blog/wp-content/uploads/2020/11/mey-fashion.jpg" alt="Mey Fashion Lounge Wear" />
+			<li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-pj-salvage.jpg" alt="Shades of Sleep - PJ Salvage" />
 				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
             </li>
           </ul>
