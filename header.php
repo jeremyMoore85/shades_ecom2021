@@ -263,19 +263,19 @@ jQuery(function () {
 		<div class="col-12 col-lg-10 col-lg-offset-1">
 		<div class="row">
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="/product-category/cotton-sleepwear/">Cotton Sleepwear</a>
+				<a href="/product-category/cotton-pajamas/">Cotton PJs</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="/product-category/flannel-sleepwear/">Flannel Sleepwear</a>
+				<a href="/product-category/flannel-sleepwear/">Silk Sleepwear</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="/product-category/bamboo-sleepwear/">Bamboo Sleepwear</a>
+				<a href="/product-category/bamboo-sleepwear/">Bamboo &amp; Wicking</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="/product-category/wicking-sleepwear/">Wicking Sleepwear</a>
+				<a href="/product-category/wicking-sleepwear/">Modal Pjs</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="/product-category/robes/">Robes</a>
+				<a href="/product-category/robes/">Women's Robes</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
 				<a href="/product-category/mens-pjs-robes/">Mens PJ's &amp; Robes</a>
