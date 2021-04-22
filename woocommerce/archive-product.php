@@ -166,9 +166,7 @@ if ( woocommerce_product_loop() ) {
 </div>
 
 <?php
-ksort( $children, function($a, $b){
-	return $a['name'] - $b['name'];
-} );
+ksort( $children);
 ?>
 	<div class="col-lg-6">
 	<pre>
