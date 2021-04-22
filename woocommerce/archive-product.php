@@ -158,11 +158,24 @@ if ( woocommerce_product_loop() ) {
 }elseif(($parent->term_id=="") && (sizeof($children)>0)) {
 ?>
 <div class="row">
+<?php if($_GET['test'] = 'true'):?>
+<div class="col-6">
+	<pre>
+		<?php print_r($children); ?>
+	</pre>	
+</div>
+
 <?php
 asort( $children, function($a, $b){
 	return $a['title'] - $b['title'];
 } );
 ?>
+	<div class="col-6">
+	<pre>
+		<?php print_r($children); ?>
+	</pre>	
+</div>
+<?php endif; ?>
 <?php
 foreach($children as $child):	
 	$childData = get_term_by('id', $child->term_id, 'product_cat');
