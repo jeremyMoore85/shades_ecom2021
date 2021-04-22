@@ -34,6 +34,7 @@ $children = get_terms( array('taxonomy' => 'product_cat','child_of' => $term->te
 $catDesc = get_field('catDesc', 'product_cat_'.$term->term_id);
 $imgID = get_woocommerce_term_meta($term->term_id, 'thumbnail_id', true);
 $imgSource = wp_get_attachment_image_src($imgID, 'full');
+
 ?>
 <header class="woocommerce-products-header">
     	<div class="row mb-30">
@@ -158,7 +159,9 @@ if ( woocommerce_product_loop() ) {
 ?>
 <div class="row">
 <?php
-asort( $children );
+asort( $children, function($a, $b){
+	return $a['title'] - $b['title'];
+} );
 ?>
 <?php
 foreach($children as $child):	
