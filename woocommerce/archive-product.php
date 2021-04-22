@@ -159,7 +159,7 @@ if ( woocommerce_product_loop() ) {
 ?>
 <div class="row">
 <?php if($_GET['test'] = 'true'):?>
-<div class="col-6">
+<div class="col-lg-6">
 	<pre>
 		<?php print_r($children); ?>
 	</pre>	
@@ -170,7 +170,7 @@ asort( $children, function($a, $b){
 	return $a['title'] - $b['title'];
 } );
 ?>
-	<div class="col-6">
+	<div class="col-lg-6">
 	<pre>
 		<?php print_r($children); ?>
 	</pre>	
