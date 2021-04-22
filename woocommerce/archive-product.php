@@ -166,7 +166,7 @@ if ( woocommerce_product_loop() ) {
 </div>
 
 <?php
-asort( $children, function($a, $b){
+usort( $children, function($a, $b){
 	return $a['name'] - $b['name'];
 } );
 ?>
