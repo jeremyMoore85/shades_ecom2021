@@ -243,13 +243,13 @@ jQuery(function () {
             </li>
 			-->
 			<li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-ayrtight.jpg" alt="Shades of Sleep - Ayrtight" />
-				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
+				<div class="caption"><span class="slide_txt3">Sleepwear Sale <span>on select brands</span></span></div>
             </li>
             <li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-dorset.jpg" alt="Shades of Sleep - Dorset" />
-				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
+				<div class="caption"><span class="slide_txt3">Sleepwear Sale <span>on select brands</span></span></div>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-pj-salvage.jpg" alt="Shades of Sleep - PJ Salvage" />
-				<div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
+				<div class="caption"><span class="slide_txt3">Sleepwear Sale <span>on select brands</span></span></div>
             </li>
           </ul>
         </div>
