@@ -262,7 +262,7 @@ jQuery(function () {
 		<div class="col-12 col-lg-10 col-lg-offset-1">
 		<div class="row">
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="/product-category/cotton-pajamas/">Cotton PJs</a>
+				<a href="/product-category/cotton-pajamas/">Cotton Sleepwear</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
 				<a href="/product-category/silk-sleepwear/">Silk Sleepwear</a>
