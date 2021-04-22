@@ -29,7 +29,7 @@ get_header( 'shop' );
 do_action( 'woocommerce_before_main_content' );
 $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); // get current term
 $parent = get_term($term->parent, get_query_var('taxonomy') ); // get parent term
-$children = get_terms( array('taxonomy' => 'product_cat','child_of' => $term->term_id,'orderby' => 'name', 'order' => 'DESC', 'hide_empty' => false));
+$children = get_terms( array('taxonomy' => 'product_cat','child_of' => $term->term_id,'orderby' => 'name', 'order' => 'ASC', 'hide_empty' => false));
 //$children = get_term_children($term->term_id, get_query_var('taxonomy')); // get children
 $catDesc = get_field('catDesc', 'product_cat_'.$term->term_id);
 $imgID = get_woocommerce_term_meta($term->term_id, 'thumbnail_id', true);
@@ -166,7 +166,10 @@ if ( woocommerce_product_loop() ) {
 </div>
 
 <?php
-ksort( $children);
+function sortByName($a, $b){
+	return $a->name > $b->name;
+}
+usort( $children, 'sortByName');
 ?>
 	<div class="col-lg-6">
 	<pre>
