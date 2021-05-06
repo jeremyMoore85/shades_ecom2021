@@ -1,3 +1,4 @@
+<?php wp_redirect(get_permalink($post->post_parent)) ; ?>
 <?php
 /**
  * The template for displaying image attachments
