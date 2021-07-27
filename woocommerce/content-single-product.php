@@ -85,7 +85,7 @@ if ( post_password_required() ) {
 				</div>
 			</div>
 	<?php endif; ?>
-<?php  else: ?>
+<?php  elseif(get_field('clothingType') == 'women'): ?>
 	<?php if( have_rows('sizingChart', 'product_cat_'.$catID) ): ?>
 			<div class="sizeChart">
 				<div class="sizeChartTtl">
