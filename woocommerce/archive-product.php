@@ -107,7 +107,7 @@ if ( woocommerce_product_loop() ) {
 ?>
 <div class="row" id="instore">
 	<div class="col-xs-12">
-    	<h3>Available to Order (In Store Only)</h3>
+    	<h3>In-store Options</h3>
         <div class="pro_list woocommerce">
         <ul class="products columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?>">
 <?php
