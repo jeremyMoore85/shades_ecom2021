@@ -27,8 +27,16 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
 <?php /* translators: %s: Order number */ ?>
-<p><?php printf( esc_html__( 'Just to let you know &mdash; we\'ve received your order #%s, and it is now being processed:', 'woocommerce' ), esc_html( $order->get_order_number() ) ); ?></p>
-
+<?php 
+	$shipMethod = $order->get_shipping_method()
+?>
+<?php if($shipMethod == 'Local pickup'):?>
+	<p>Thanks for your order for in store pick up.   We will email you once your order is available for pick up (usually same day except Mondays and holidays when are closed)  and you have the option of either coming into the store to pick up or calling us when you are curbside and we are happy to run your order out to you in your car.</p>
+	<p>We appreciate your support and shopping local!</p>
+	<p>Shades of Sleep &amp; Accessories Inc. (store phone 403-457-0092).</p>
+<?php else: ?>
+	<p><?php printf( esc_html__( 'Just to let you know &mdash; we\'ve received your order #%s, and it is now being processed:', 'woocommerce' ), esc_html( $order->get_order_number() ) ); ?></p>
+<?php endif; ?>
 <?php
 
 /*
