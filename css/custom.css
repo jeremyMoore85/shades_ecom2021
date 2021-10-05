@@ -69,6 +69,9 @@ li {
 	margin: 0;
 	padding: 0;
 }
+ol li{
+	margin-bottom:1rem;
+}
 .clear {
 	clear: both;
 }
