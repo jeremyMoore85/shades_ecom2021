@@ -71,6 +71,7 @@ li {
 }
 ol li{
 	margin-bottom:1rem;
+	margin-left:0;
 }
 .clear {
 	clear: both;
