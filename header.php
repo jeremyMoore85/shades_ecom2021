@@ -187,14 +187,20 @@ jQuery(function () {
 	}
 	.popForm .form-control{
 		background:rgba(0,0,0,0.25);
-		font-size:1rem;
+		font-size:18px;
 	}
 	.popForm .form-control.formBtn{
-		background:#F15C22;
-		font-weight:bold;
-		border:none;
-		font-size:1.2rem;
-		color:#FFF;
+		background: #F15C22;
+		font-weight: bold;
+		border: none;
+		font-size: 18px;
+		color: #FFF;
+		display: block;
+		height: auto;
+		text-transform: uppercase;
+	}
+
+
 	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
