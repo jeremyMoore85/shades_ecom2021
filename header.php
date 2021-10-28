@@ -172,9 +172,9 @@ jQuery(function () {
 						<div class="popupCnt">
 							<div class="row">
 								<div class="col-xs-4">
-								
+									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2019/09/Pallermo-Sleepshirt.jpg" alt="Shades of Sleep - St. Geneve"
 								</div>
-								<div class="col-xs-8">
+								<div class="col-xs-8 text-left">
 									<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
 									<p>Our beautiful retail store is temporarily closed due to COVID-19 however <a href="/product-category/sleepwear/">have a peek at our online store!</a>  All of our beautiful sleepwear &amp; Lounge is on sale at 20% until June 15 with free shipping within Canada on any purchase over $100.00!</p>
 									<p>Questions?  Feel free to email us at <a href="mailto:shadesofsleep@shaw.ca">shadesofsleep@shaw.ca</a></p>
