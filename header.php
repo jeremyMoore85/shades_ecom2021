@@ -83,6 +83,7 @@ jQuery(function () {
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 		/* POPUP SCRIPTS */
+		$(".popupHolder").delay(5000).fadeIn(500);
 		$('.popupClose').click(function(){
 			$('.popupHolder').hide();
 		});
@@ -103,6 +104,7 @@ jQuery(function () {
 	height:100vh;
 	background:rgba(0,0,0,0.5);
 	z-index:888888;
+	display:none;
 }
 .popupFlex{	
 	display:flex;
@@ -200,8 +202,8 @@ jQuery(function () {
 		height: auto;
 		text-transform: uppercase;
 	}
-
-
+	.popForm .form-control.formBtn:hover{
+		background:#BF2E1A;
 	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
