@@ -113,7 +113,7 @@ jQuery(function () {
 }
 .popup{
 	position:relative;
-	background:rgba(70,70,70,0.9);
+	background:rgba(70,70,70,1);
 	border-radius:0.3rem;
 	color:#fff;
 	border:2px solid rgba(255,255,255,0.5);
