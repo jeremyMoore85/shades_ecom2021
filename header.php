@@ -177,13 +177,14 @@ jQuery(function () {
 		padding:0 30px 1rem 0;
 	}
 	.popTerms p{
-		font-size:14px;
+		font-size:13px;
+		color:rgba(255,255,255,0.8);
 	}
 	.d-flex{
 		display:flex;
 	}
 	.popForm{
-		margin-top:1rem;
+		margin-top:2rem;
 	}
 	.popForm .form-control{
 		background:rgba(0,0,0,0.25);
