@@ -167,8 +167,17 @@ jQuery(function () {
 	.popLogo{
 		padding:4rem 30px 2rem 0;
 	}
+	.popDec{
+		padding: 0 30px 2rem 0;
+	}
 	.popDec h3{
 		color:#fff;
+	}
+	.popTerms{
+		padding:0 30px 1rem 0;
+	}
+	.popTerms p{
+		font-size:14px;
 	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
