@@ -15,7 +15,7 @@ global $post;
 <div class="container-fluid">
   <div class="row col-flex">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center mb-sm-20" style="height:100%;">
-      <div class="imageBlock" style="background-image: url('/blog/wp-content/uploads/2021/04/shades-of-sleep-fav-lounge.jpg');"> <a href="/product-category/best-sleepwear/" class="cta_link"></a>
+      <div class="imageBlock" style="background-image: url('/blog/wp-content/uploads/2021/10/shades-of-slee-fav-lounge-wear.jpg');"> <a href="/product-category/best-sleepwear/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
             <h2>Our Favorite Loungewear</h2>
@@ -81,7 +81,7 @@ global $post;
       <div class="cta_block"> <a href="https://eepurl.com/Kb2-T" class="cta_link" target="_blank"></a>
         <div class="inner">
           <div class="innerBlock">
-            <h4 class="title">Sign Up <em>For News &amp; Promotions</em></h4>
+            <h4 class="title">Join Our <em>VIP Sleepers Club</em></h4>
           </div>
         </div>
       </div>
