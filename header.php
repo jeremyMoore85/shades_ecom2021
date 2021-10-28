@@ -172,7 +172,7 @@ jQuery(function () {
 						<div class="popupCnt">
 							<div class="row">
 								<div class="col-xs-4">
-									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2019/09/Pallermo-Sleepshirt.jpg" alt="Shades of Sleep - St. Geneve"
+									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2019/09/Pallermo-Sleepshirt.jpg" alt="Shades of Sleep - St. Geneve" />
 								</div>
 								<div class="col-xs-8 text-left">
 									<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
