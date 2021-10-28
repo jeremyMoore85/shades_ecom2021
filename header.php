@@ -194,7 +194,7 @@ jQuery(function () {
 		background: #F15C22;
 		font-weight: bold;
 		border: none;
-		font-size: 18px;
+		font-size: 16px;
 		color: #FFF;
 		display: block;
 		height: auto;
