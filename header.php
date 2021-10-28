@@ -338,7 +338,7 @@ jQuery(function () {
 				<a href="/product-category/silk-sleepwear/">Silk Sleepwear</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
-				<a href="/product-category/bamboo-wicking/">Bamboo &amp; Wicking</a>
+				<a href="/product-category/bamboo-wicking/">Bamboo &amp; Wicking PJS</a>
 			</div>
 			<div class="col-12 col-md-4 col-lg-2 p-0 catNavLink">
 				<a href="/product-category/modal-sleepwear/">Modal Pjs</a>
