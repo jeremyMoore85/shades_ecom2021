@@ -182,6 +182,12 @@ jQuery(function () {
 	.d-flex{
 		display:flex;
 	}
+	.popForm{
+		margin-top:1rem;
+	}
+	.popForm .form-control{
+		background:rgba(0,0,0,0.25);
+	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
 <div class="popupHolder">
@@ -203,7 +209,7 @@ jQuery(function () {
 									<div class="popDec">
 										<h3>Join our VIP Sleepers Club!</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-										<form method="post">
+										<form method="post" class="popForm">
 											<div class="form-group">
 												<input type="email" class="form-control" name="MERG0" placeholder="Email Address" />
 											</div>
