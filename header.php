@@ -179,6 +179,9 @@ jQuery(function () {
 	.popTerms p{
 		font-size:14px;
 	}
+	.d-flex{
+		display:flex;
+	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
 <div class="popupHolder">
