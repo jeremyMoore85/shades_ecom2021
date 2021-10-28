@@ -201,8 +201,19 @@ jQuery(function () {
 										<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
 									</div>
 									<div class="popDec">
-									<h3>Join our VIP Sleepers Club!</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<h3>Join our VIP Sleepers Club!</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<form method="post">
+											<div class="form-group">
+												<input type="form-control" name="MERG0" placeholder="Email Address" />
+											</div>
+											<div class="form-group">
+												<input type="form-control" name="MERGE1" placeholder="First Name" />
+											</div>
+											<div class="form-group">
+												<input type="form-control" name="MERGE2" placeholder="Last Name" />
+											</div>
+										</form>
 									</div>
 									<div class="popTerms">
 										<p>*By submitting your email address, you are providing your consent to Williams-Sonoma Canada, Inc., doing business as Pottery Barn on behalf of itself and its affiliates, including Williams-Sonoma, Inc., to send electronic messages to your email or similar account about updates on future events and promotions relating to WSI Brands, our affiliates and our Select Partners. You can withdraw your consent at any time by <a href="/blog/contact-us/">Contacting Us</a>. We will treat the information you provide in accordance with our <a href="/blog/privacy-policy/">Privacy Policy</a>.</p>
