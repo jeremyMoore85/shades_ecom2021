@@ -192,7 +192,7 @@ jQuery(function () {
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="popupCnt">
-							<div class="row">
+							<div class="row d-flex">
 								<div class="col-xs-4">
 									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2019/09/Pallermo-Sleepshirt.jpg" alt="Shades of Sleep - St. Geneve" class="popImg" />
 								</div>
