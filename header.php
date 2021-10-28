@@ -130,7 +130,6 @@ jQuery(function () {
 	color:#FFF;
 }
 .popupCnt{
-	padding:2rem;
 	text-align:center;	
 	font-size:1.5rem;
 }	
@@ -160,27 +159,36 @@ jQuery(function () {
 		color:#fff;
 		text-decoration: none;
 	}
+	.popImg{
+		width:100%;
+		height:100%;
+		object-fit:cover;
+	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
 <div class="popupHolder">
 	<div class="popupFlex">
 	<div class="popup">
 			<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
-			<div class="container">
+			<div class="container p-0">
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="popupCnt">
 							<div class="row">
 								<div class="col-xs-4">
-									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2019/09/Pallermo-Sleepshirt.jpg" alt="Shades of Sleep - St. Geneve" />
+									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2019/09/Pallermo-Sleepshirt.jpg" alt="Shades of Sleep - St. Geneve" class="popImg" />
 								</div>
-								<div class="col-xs-8 text-left">
-									<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
-									<p>Our beautiful retail store is temporarily closed due to COVID-19 however <a href="/product-category/sleepwear/">have a peek at our online store!</a>  All of our beautiful sleepwear &amp; Lounge is on sale at 20% until June 15 with free shipping within Canada on any purchase over $100.00!</p>
-									<p>Questions?  Feel free to email us at <a href="mailto:shadesofsleep@shaw.ca">shadesofsleep@shaw.ca</a></p>
-									<a role="button" class="popup_btn lg" href="/product-category/sleepwear/"><span>Shop Sleepwear</span></a>
-									<a role="button" class="popup_btn" href="/contact-store-hours/"><span>Contact Us</span></a>
-									<br clear="all" />
+								<div class="col-xs-8 text-left popCnt">
+									<div class="popLogo">
+										<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
+									</div>
+									<div class="popDec">
+									<h3>Join our VIP Sleepers Club!</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+									<div class="popTerms">
+										<p>*By submitting your email address, you are providing your consent to Williams-Sonoma Canada, Inc., doing business as Pottery Barn on behalf of itself and its affiliates, including Williams-Sonoma, Inc., to send electronic messages to your email or similar account about updates on future events and promotions relating to WSI Brands, our affiliates and our Select Partners. You can withdraw your consent at any time by <a href="/blog/contact-us/">Contacting Us</a>. We will treat the information you provide in accordance with our <a href="/blog/privacy-policy/">Privacy Policy</a>.</p>
+									</div>
 								</div>
 							</div>							
 						</div>
