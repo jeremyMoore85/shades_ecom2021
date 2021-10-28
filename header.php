@@ -205,13 +205,16 @@ jQuery(function () {
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 										<form method="post">
 											<div class="form-group">
-												<input type="form-control" name="MERG0" placeholder="Email Address" />
+												<input type="email" class="form-control" name="MERG0" placeholder="Email Address" />
 											</div>
 											<div class="form-group">
-												<input type="form-control" name="MERGE1" placeholder="First Name" />
+												<input type="text" class="form-control" name="MERGE1" placeholder="First Name" />
 											</div>
 											<div class="form-group">
-												<input type="form-control" name="MERGE2" placeholder="Last Name" />
+												<input type="text" class="form-control" name="MERGE2" placeholder="Last Name" />
+											</div>
+											<div class="form-group">
+												<input type="submit" class="form-control" value="Join Now!" />
 											</div>
 										</form>
 									</div>
