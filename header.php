@@ -187,6 +187,11 @@ jQuery(function () {
 	}
 	.popForm .form-control{
 		background:rgba(0,0,0,0.25);
+		font-size:1rem;
+	}
+	.popForm .form-control.formBtn{
+		background:#F15C22;
+		font-weight:bold;
 	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
@@ -220,7 +225,7 @@ jQuery(function () {
 												<input type="text" class="form-control" name="MERGE2" placeholder="Last Name" />
 											</div>
 											<div class="form-group">
-												<input type="submit" class="form-control" value="Join Now!" />
+												<input type="submit" class="form-control formBtn" value="Join Now!" />
 											</div>
 										</form>
 									</div>
