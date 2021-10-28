@@ -165,10 +165,10 @@ jQuery(function () {
 		object-fit:cover;
 	}
 	.popLogo{
-		padding:5rem 30px 3rem 0;
-		display:flex;
-		justify-content:center;
-		align-items:center;
+		padding:4rem 30px 2rem 0;
+	}
+	.popDec h3{
+		color:#fff;
 	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
