@@ -192,6 +192,9 @@ jQuery(function () {
 	.popForm .form-control.formBtn{
 		background:#F15C22;
 		font-weight:bold;
+		border:none;
+		font-size:1.2rem;
+		color:#FFF;
 	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
