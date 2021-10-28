@@ -224,9 +224,9 @@ jQuery(function () {
 										<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
 									</div>
 									<div class="popDec">
-										<h3>Join our VIP Sleepers Club!</h3>
+										<h3>Join Our VIP Sleepers Club!</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-										<form method="post" class="popForm">
+										<form method="post" class="popForm" action="https://shadesofsleep.us3.list-manage.com/subscribe/post">
 											<div class="form-group">
 												<input type="email" class="form-control" name="MERG0" placeholder="Email Address" />
 											</div>
