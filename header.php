@@ -164,6 +164,12 @@ jQuery(function () {
 		height:100%;
 		object-fit:cover;
 	}
+	.popLogo{
+		padding:5rem 30px 3rem 0;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
 </style>
 <?php if($_GET['test'] == 'true'):?>
 <div class="popupHolder">
