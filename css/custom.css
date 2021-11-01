@@ -386,6 +386,9 @@ a:hover {
 	font-family: 'OpenSansRegular';
 	padding: 11px 0 12px 0px;
 	margin: 37px 0 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 .call_top a{
 	color:#fff;
@@ -605,7 +608,7 @@ a:hover {
 }
 .call_top a.in, .call_top a.fb{
 	float:none;
-	display:block;
+	display:inline-block;
 }
 
 .menu_main { width: 100%; float: left; background: #333; padding: 1px 0 0; border-top:1px solid #999;}
