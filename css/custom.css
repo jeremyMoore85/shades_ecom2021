@@ -609,6 +609,8 @@ a:hover {
 .call_top a.in, .call_top a.fb{
 	float:none;
 	display:inline-block;
+	margin-left:5px;
+	margin-right:5px;
 }
 
 .menu_main { width: 100%; float: left; background: #333; padding: 1px 0 0; border-top:1px solid #999;}
