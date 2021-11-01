@@ -217,7 +217,7 @@ jQuery(function () {
 						<div class="popupCnt">
 							<div class="row d-flex">
 								<div class="col-xs-4">
-									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2021/09/bedhead-main.jpg" alt="Shades of Sleep - Bed Head" class="popImg" />
+									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2021/11/ju-ju-image.jpg" alt="Shades of Sleep - Bed Head" class="popImg" />
 								</div>
 								<div class="col-xs-8 text-left popCnt">
 									<div class="popLogo">
