@@ -380,11 +380,11 @@ a:hover {
 .call_top {
 	width: auto;
 	float: right;
-	background: url(/images/call_icon.png) left 5px no-repeat;
+	/*background: url(/images/call_icon.png) left 5px no-repeat;*/
 	font-size: 16px;
 	color: #fff;
 	font-family: 'OpenSansRegular';
-	padding: 11px 0 12px 54px;
+	padding: 11px 0 12px 0px;
 	margin: 37px 0 0;
 }
 .call_top a{
