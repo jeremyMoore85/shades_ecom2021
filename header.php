@@ -260,7 +260,7 @@ jQuery(function () {
 <div class="header_top"><div class="header_notification text-center" style="background:#F15C22;color:#fff;padding:5px 0px;">Free Shipping on ALL sleepwear in Canada over $100.00</div>
   <div class="container">
     <div class="logo"><a href="/"><img src="/images/logo.png" alt="" /></a></div>
-    <div class="call_top"><a href="tel:403-457-0092">(403) 457-0092</a> | <a href="/our-story/" class="contact_top">Our Story</a> | <a href="/blog/" class="contact_top">Blog</a> | <a href="/contact-store-hours/" class="contact_top">Contact Us</a> | <a href="/questions/">FAQ</a> | <div style="display:inline-block;"><a href="/cart/" class="cartBtn"><span class="cartCount"><?php echo sprintf ( _n( '%d', '%d', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></span> <i class="fa fa-shopping-cart"></i></a></div></div>
+    <div class="call_top"><a class="fb" href="https://www.facebook.com/shadesofsleep" target="_blank"></a> | <a class="in" href="https://www.instagram.com/shadesofsleep/" target="_blank"></a> | <a href="tel:403-457-0092">(403) 457-0092</a> | <a href="/our-story/" class="contact_top">Our Story</a> | <a href="/blog/" class="contact_top">Blog</a> | <a href="/contact-store-hours/" class="contact_top">Contact Us</a> | <a href="/questions/">FAQ</a> | <div style="display:inline-block;"><a href="/cart/" class="cartBtn"><span class="cartCount"><?php echo sprintf ( _n( '%d', '%d', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></span> <i class="fa fa-shopping-cart"></i></a></div></div>
   </div>
   <div class="menu_main">
     <div class="container">
