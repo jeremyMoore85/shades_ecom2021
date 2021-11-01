@@ -603,6 +603,10 @@ a:hover {
 #footer a.in:hover, .call_top a.in:hover {
 	background-position: 0px -29px;
 }
+.call_top a.in, .call_top a.fb{
+	float:none;
+	display:block;
+}
 
 .menu_main { width: 100%; float: left; background: #333; padding: 1px 0 0; border-top:1px solid #999;}
 .menu_nav { width: auto; float: right; z-index: 9999; position: relative; }
