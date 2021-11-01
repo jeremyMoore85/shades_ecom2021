@@ -584,23 +584,23 @@ a:hover {
 	font-size: 13px;
 	border-top:1px solid #666;
 }
-#footer a.fb {
+#footer a.fb, .call_top a.fb {
 	background: url(/images/fb.png) left top no-repeat;
 	height: 29px;
 	width: 28px;
 	float: left;
 	margin-right: 5px;
 }
-#footer a.fb:hover {
+#footer a.fb:hover, .call_top a.fb:hover {
 	background-position: 0px -29px;
 }
-#footer a.in {
+#footer a.in, .call_top a.in {
 	background: url(/images/in.png) left top no-repeat;
 	height: 29px;
 	width: 28px;
 	float: left;
 }
-#footer a.in:hover {
+#footer a.in:hover, .call_top a.in:hover {
 	background-position: 0px -29px;
 }
 
