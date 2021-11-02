@@ -20,49 +20,37 @@ defined( 'ABSPATH' ) || exit;
 global $product;
 
 // Ensure visibility.
-if ( empty( $product ) || ! $product->is_visible() ) {
-	return;
+if ( empty( $product ) || !$product->is_visible() ) {
+  return;
 }
 ?>
-<li <?php wc_product_class( '', $product ); ?>>
-	<a href="<?php echo get_the_permalink(); ?>" class="prodLink">
-	<div class="productItem">
-    	<div class="productImg">
-        	<div class="productImgOverlay">
-            	<div class="productOverlayCnt">
-                	<div class="overlayCnt">
-                		<h4><?php echo $product->name; ?></h4>
-                    	<div class="overlayBtn">Shop Now</div>
-                    </div>
-                </div>
-            </div>
-        	<?php $productImg = $product->image_id; ?>
-            <?php $imgSource = wp_get_attachment_image_src($productImg, 'full'); ?>
-            <img src="<?php echo $imgSource[0]; ?>" class="prodImg" />
+<li <?php wc_product_class( '', $product ); ?>> <a href="<?php echo get_the_permalink(); ?>" class="prodLink">
+  <div class="productItem">
+    <div class="productImg">
+      <div class="productImgOverlay">
+        <div class="productOverlayCnt">
+          <div class="overlayCnt">
+            <h4><?php echo $product->name; ?></h4>
+            <div class="overlayBtn">Shop Now</div>
+          </div>
         </div>
-        <h4 class="prodTtl"><?php echo $product->name; ?></h4>
-		<?php if($_GET['test'] == 'test'):?>
-		<?php
-			$terms = get_the_terms($post->ID, 'product_cat');
-			foreach($terms as $term){
-				if(in_array($term->parent, array('90', '62'))){
-					$catID = $term->term_id;
-				}
-			}
-		?>
-			<div class="brandCTA">
-			  <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 text-center">
-							<h4>Shop More Products By</h4>
-							<img src="<?php echo get_field('logo', 'product_cat_'.$catID); ?>" />
-						</div>
-					</div>
-				</div>
-				</a>
-			  </div>
-		<?php endif; ?>
-    </div>
-    </a>
-</li>
+      </div>
+      <?php $productImg = $product->image_id; ?>
+      <?php $imgSource = wp_get_attachment_image_src($productImg, 'full'); ?>
+      <img src="<?php echo $imgSource[0]; ?>" class="prodImg" /> </div>
+    <h4 class="prodTtl"><?php echo $product->name; ?></h4>
+    <?php if($_GET['test'] == 'test'):?>
+    <?php
+    $terms = get_the_terms( $post->ID, 'product_cat' );
+    foreach ( $terms as $term ) {
+      if ( in_array( $term->parent, array( '90', '62' ) ) ) {
+        $catID = $term->term_id;
+      }
+    }
+    ?>
+    <div class="brandCTA"> <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
+      <h4>Shop More Products By</h4>
+      <img src="<?php echo get_field('logo', 'product_cat_'.$catID); ?>" /> </a> </div>
+    <?php endif; ?>
+  </div>
+  </a> </li>
