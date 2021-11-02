@@ -48,7 +48,7 @@ if ( empty( $product ) || !$product->is_visible() ) {
       }
     }
     ?>
-    <div class="brandCTA"> <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
+    <div class="brandInfo"> <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
       <h4>Shop More Products By</h4>
       <img src="<?php echo get_field('logo', 'product_cat_'.$catID); ?>" /> </a> </div>
     <?php endif; ?>
