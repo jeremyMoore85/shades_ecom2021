@@ -43,6 +43,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
         <h4 class="prodTtl"><?php echo $product->name; ?></h4>
 		<?php if($_GET['test'] == 'test'):?>
 		<?php
+			$terms = get_the_terms($post->ID, 'product_cat');
 			foreach($terms as $term){
 				if(in_array($term->parent, array('90', '62'))){
 					$catID = $term->term_id;
