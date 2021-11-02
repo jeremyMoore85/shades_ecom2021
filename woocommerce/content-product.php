@@ -42,8 +42,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
         </div>
         <h4 class="prodTtl"><?php echo $product->name; ?></h4>
 		<?php if($_GET['test'] == 'test'):?>
-			<?php global $catID; ?>
-			<?php if(isset($catID)): ?>
 			<div class="brandCTA">
 			  <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
 				<div class="container">
@@ -56,7 +54,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 				</div>
 				</a>
 			  </div>
-			<?php endif; ?>
 		<?php endif; ?>
     </div>
     </a>
