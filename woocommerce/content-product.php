@@ -41,6 +41,23 @@ if ( empty( $product ) || ! $product->is_visible() ) {
             <img src="<?php echo $imgSource[0]; ?>" class="prodImg" />
         </div>
         <h4 class="prodTtl"><?php echo $product->name; ?></h4>
+		<?php if($_GET['test'] == 'test'):?>
+			<?php global $catID; ?>
+			<?php if(isset($catID)): ?>
+			<div class="brandCTA">
+			  <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<h4>Shop More Products By</h4>
+							<img src="<?php echo get_field('logo', 'product_cat_'.$catID); ?>" />
+						</div>
+					</div>
+				</div>
+				</a>
+			  </div>
+			<?php endif; ?>
+		<?php endif; ?>
     </div>
     </a>
 </li>
