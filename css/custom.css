@@ -1389,6 +1389,9 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	background:#EFEFEF;
 	text-align:center;
 }
+.brandInfo img{
+	margin-bottom:0;
+}
 /* ---- Responsive ---- */
 @media(max-width:1129px){
 	.slide_txt3{
