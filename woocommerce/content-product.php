@@ -42,6 +42,13 @@ if ( empty( $product ) || ! $product->is_visible() ) {
         </div>
         <h4 class="prodTtl"><?php echo $product->name; ?></h4>
 		<?php if($_GET['test'] == 'test'):?>
+		<?php
+			foreach($terms as $term){
+				if(in_array($term->parent, array('90', '62'))){
+					$catID = $term->term_id;
+				}
+			}
+		?>
 			<div class="brandCTA">
 			  <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
 				<div class="container">
