@@ -79,7 +79,7 @@ jQuery(function () {
 </head>
 
 <body <?php body_class(); ?>>
-<?php if(is_front_page()):?>
+<?php if(is_front_page() && $_COOKIE['shadePopup'] != 1):?>
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 		/* POPUP SCRIPTS */
@@ -92,7 +92,10 @@ jQuery(function () {
 		})
 		$('.popupCnt').click(function(event){
 			event.stopPropagation();
-		});					   
+		});				
+		var expiryDate = new Date();
+  		expiryDate.setMonth(expiryDate.getMonth() + 1);
+		document.cookie = 'shadePopup = 1; expires=' + expiryDate.toGMTString();
 	});
 </script>
 <style type="text/css">
