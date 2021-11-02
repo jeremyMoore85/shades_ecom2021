@@ -1384,6 +1384,11 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	text-decoration:none;
 	background:#333;
 }
+.brandInfo{
+	padding:1rem;
+	background:#EFEFEF;
+	text-align:center;
+}
 /* ---- Responsive ---- */
 @media(max-width:1129px){
 	.slide_txt3{
