@@ -1392,6 +1392,8 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 }
 .brandInfo img{
 	margin-bottom:0 !important;
+	width:50% !important;
+	maring: 0 auto !important;
 }
 /* ---- Responsive ---- */
 @media(max-width:1129px){
