@@ -278,50 +278,13 @@ jQuery(function () {
 	<div class="slider_main">
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
-			<?php 
-			  /*
-				$today = date('Y-m-d');
-			  	$week1_start = date('Y-m-d', strtotime('2020-11-16'));
-			  	$week2_start = date('Y-m-d', strtotime('2020-11-23'));
-			  	$week3_start = date('Y-m-d', strtotime('2020-11-30'));
-			  	$week4_start = date('Y-m-d', strtotime('2020-12-07'));
-			  	$week5_start = date('Y-m-d', strtotime('2020-12-14'));
-				$week6_start = date('Y-m-d', strtotime('2020-12-21'));
-			?>
-			  
-			<?php if($today >= $week1_start && $today < $week2_start):?>
-			<li> <img src="/blog/wp-content/uploads/2020/11/kate-spade.jpg" alt="Kate Spade Sale" />
-				<div class="caption"><span class="slide_txt3">Kate Spade 20% Off  <em>(November 16<sup>th</sup> - 22<sup>nd</sup>)</em></span></div>
-            </li>
-			<?php elseif($today >= $week2_start && $today < $week3_start):?>
-			<li> <img src="/blog/wp-content/uploads/2020/11/paper-label.jpg" alt="Paper Label" />
-				<div class="caption"><span class="slide_txt3">Paper Label 20% Off  <em>(November 23<sup>rd</sup> - 29<sup>th</sup>)</em></span></div>
-            </li>
-			<?php elseif($today >= $week3_start && $today < $week4_start):?>
-			<li> <img src="/blog/wp-content/uploads/2020/11/mey-fashion-1.jpg" alt="Mey Fasshion" />
-				<div class="caption"><span class="slide_txt3">Mey Fashion 20% Off  <em>(November 30<sup>th</sup> - December 6<sup>th</sup>)</em></span></div>
-            </li>
-			<?php elseif($today >= $week4_start && $today < $week5_start):?>
-			<li> <img src="/blog/wp-content/uploads/2020/11/christine-vancouver-sale.jpg" alt="Paper Label" />
-				<div class="caption"><span class="slide_txt3">Christine Vancouver 20% Off  <em>(December 7<sup>th</sup> - 13<sup>th</sup>)</em></span></div>
-            </li>
-			<?php elseif($today >= $week5_start && $today < $week6_start):?>
-			<li> <img src="/blog/wp-content/uploads/2020/11/hanro-sale.jpg" alt="Paper Label" />
-				<div class="caption"><span class="slide_txt3">Hanro 20% Off  <em>(December 7<sup>th</sup> - 13<sup>th</sup>)</em></span></div>
-            </li>
-			<?php endif; */ ?>
-			<!--
-			<li> <img src="/blog/wp-content/uploads/2021/01/Sedona-Ivory.jpg" alt="Annual Bedding Sale" />
-				<div class="caption"><span class="slide_txt3">Annual Bedding Sale January 23 to February 13.</span></div>
-            </li>
-			-->
-			<li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-ayrtight.jpg" alt="Shades of Sleep - Ayrtight" />
+			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner1.jpg" alt="Shades of Sleep - Ayrtight" />
 				<div class="caption"><span class="slide_txt3">Stay Well, Sleep Well.</span></div>
             </li>
-            <li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-dorset.jpg" alt="Shades of Sleep - Dorset" />
+            <li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner2.jpg" alt="Shades of Sleep - Dorset" />
 				<div class="caption"><span class="slide_txt3">Stay Well, Sleep Well.</span></div>
             </li>
-			<li> <img src="/blog/wp-content/uploads/2021/04/shades-of-sleep-pj-salvage.jpg" alt="Shades of Sleep - PJ Salvage" />
+			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner3.jpg" alt="Shades of Sleep - PJ Salvage" />
 				<div class="caption"><span class="slide_txt3">Stay Well, Sleep Well.</span></div>
             </li>
           </ul>
