@@ -279,13 +279,13 @@ jQuery(function () {
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner1.jpg" alt="Shades of Sleep - Ayrtight" />
-				<div class="caption"><span class="slide_txt3">Stay Well, Sleep Well.</span></div>
+				<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
             </li>
             <li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner2.jpg" alt="Shades of Sleep - Dorset" />
-				<div class="caption"><span class="slide_txt3">Stay Well, Sleep Well.</span></div>
+				<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner3.jpg" alt="Shades of Sleep - PJ Salvage" />
-				<div class="caption"><span class="slide_txt3">Stay Well, Sleep Well.</span></div>
+				<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
             </li>
           </ul>
         </div>
