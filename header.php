@@ -83,7 +83,7 @@ jQuery(function () {
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 		/* POPUP SCRIPTS */
-		$(".popupHolder").delay(5000).fadeIn(500);
+		$(".popupHolder").delay(30000).fadeIn(500);
 		$('.popupClose').click(function(){
 			$('.popupHolder').hide();
 		});
@@ -245,7 +245,7 @@ jQuery(function () {
 										</form>
 									</div>
 									<div class="popTerms">
-										<p>*By submitting your email address, you are providing your consent to Williams-Sonoma Canada, Inc., doing business as Pottery Barn on behalf of itself and its affiliates, including Williams-Sonoma, Inc., to send electronic messages to your email or similar account about updates on future events and promotions relating to WSI Brands, our affiliates and our Select Partners. You can withdraw your consent at any time by <a href="/blog/contact-us/">Contacting Us</a>. We will treat the information you provide in accordance with our <a href="/blog/privacy-policy/">Privacy Policy</a>.</p>
+										<p>*By submitting your email address, you are providing your consent to Shades of Sleep &amp; Accessories Inc. to send electronic messages to your email or similar account about updates on future events, promotions and exciting new products that have arrived in store.”   You can withdraw your consent at any time by <a href="/contact-store-hours/">contacting us</a> or selecting unsubscribe at the bottom of your email.  We will treat the information that you provide in accordance with our <a href="/privacy-policy/">Privacy Policy</a>.</p>
 									</div>
 								</div>
 							</div>							
