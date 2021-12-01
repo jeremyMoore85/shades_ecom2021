@@ -45,6 +45,14 @@ display: block;
 	margin: 0 5px 0 0;
 	flex-wrap:wrap;
 }
+.d-mobile{
+	display:none;
+}
+@media screen and (min-width:992px){
+	.d-mobile{
+		display:block;
+	}
+}
 /* ---- Comman Classes ---- */
 a, img, span {
 	border: 0;
