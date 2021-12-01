@@ -293,7 +293,7 @@ jQuery(function () {
 <?php endif; ?>
 <br clear="all" />
 <?php if(is_front_page()):?>
-<section id="catNav">
+<section id="catNav d-none d-md-block">
 	<div class="container-fluid">
 		<div class="col-12 col-lg-10 col-lg-offset-1">
 		<div class="row">
