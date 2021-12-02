@@ -39,7 +39,6 @@ if ( empty( $product ) || !$product->is_visible() ) {
       <?php $imgSource = wp_get_attachment_image_src($productImg, 'full'); ?>
       <img src="<?php echo $imgSource[0]; ?>" class="prodImg" /> </div>
     <h4 class="prodTtl"><?php echo $product->name; ?></h4>
-    <?php if($_GET['test'] == 'test'):?>
     <?php
     $terms = get_the_terms( $post->ID, 'product_cat' );
     foreach ( $terms as $term ) {
@@ -51,6 +50,5 @@ if ( empty( $product ) || !$product->is_visible() ) {
     <div class="brandInfo"> <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
       <h4>Shop More Products By</h4>
       <img src="<?php echo get_field('logo', 'product_cat_'.$catID); ?>" /> </a> </div>
-    <?php endif; ?>
   </div>
   </a> </li>
