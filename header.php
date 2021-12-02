@@ -209,7 +209,6 @@ jQuery(function () {
 		background:#BF2E1A;
 	}
 </style>
-<?php if($_GET['test'] == 'true'):?>
 <div class="popupHolder">
 	<div class="popupFlex">
 	<div class="popup">
@@ -256,7 +255,6 @@ jQuery(function () {
 		</div>
 	</div>
 </div>	
-<?php endif; ?>
 <?php endif; ?>
 <div class="mobile_call_top"><a href="tel:403-457-0092">(403) 457-0092</a> | <a href="/contact-store-hours/" class="contact_top">Contact Us</a></div>
 <div id="wrapper">
