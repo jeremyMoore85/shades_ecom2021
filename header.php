@@ -24,6 +24,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width">
+	<meta name="facebook-domain-verification" content="yrh2357yxnl943n3ucwx3yz4bzsh2" />
 <title>
 <?php wp_title( '|', true, 'right' ); ?>
 </title>
