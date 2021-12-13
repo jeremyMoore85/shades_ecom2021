@@ -1403,9 +1403,15 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	margin: 0 auto !important;
 }
 .shipNotice{
-	background:rgba(191,46,26,0.5);
-	padding:1rem;
-	font-weight:bold;
+	background: #fff;
+    padding: 1rem;
+    font-weight: bold;
+    border: 2px dashed #f00;
+    margin: 0 0 1rem;
+    text-align: center;
+    font-weight: bold;
+    background: #efefef;
+    color: #000;
 }
 /* ---- Responsive ---- */
 @media(max-width:1129px){
