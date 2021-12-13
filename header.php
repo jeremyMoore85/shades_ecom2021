@@ -284,7 +284,7 @@ jQuery(function () {
 						$today2 = intval($today);
 						if($today2 >= 20211213):
 					?>
-						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_text2">All regularly priced sleepwear 25% OFF</span></div>	
+						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_txt2">All regularly priced sleepwear 25% OFF</span></div>	
 					<?php elseif($today >= 20220103): ?>
 						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>						
 					<?php endif; ?>
