@@ -286,7 +286,9 @@ jQuery(function () {
 					?>
 						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_txt2">All regularly priced sleepwear 25% OFF</span></div>	
 					<?php elseif($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>						
+						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>		
+					<?php else: ?>
+						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
 				<?php else: ?>
 					<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
@@ -299,7 +301,9 @@ jQuery(function () {
 					?>
 						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_txt2">All regularly priced sleepwear 25% OFF</span></div>	
 					<?php elseif($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>						
+						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>	
+					<?php else: ?>
+						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
 				<?php else: ?>
 					<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
@@ -313,6 +317,8 @@ jQuery(function () {
 						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_txt2">All regularly priced sleepwear 25% OFF</span></div>	
 					<?php elseif($today >= 20220103): ?>
 						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>						
+					<?php else: ?>
+						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
 				<?php else: ?>
 					<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
