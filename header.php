@@ -278,7 +278,6 @@ jQuery(function () {
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner1.jpg" alt="Shades of Sleep - Ayrtight" />
-				<?php if($_GET['test'] == 'true'): ?>
 					<?php
 						$today = date('Ymd');
 						$today2 = intval($today);
@@ -290,12 +289,8 @@ jQuery(function () {
 					<?php else: ?>
 						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
-				<?php else: ?>
-					<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
-				<?php endif; ?>
             </li>
             <li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner2.jpg" alt="Shades of Sleep - Dorset" />
-				<?php if($_GET['test'] == 'true'): ?>
 					<?php
 						if($today2 >= 20211226):
 					?>
@@ -305,12 +300,8 @@ jQuery(function () {
 					<?php else: ?>
 						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
-				<?php else: ?>
-					<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
-				<?php endif; ?>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner3.jpg" alt="Shades of Sleep - PJ Salvage" />
-				<?php if($_GET['test'] == 'true'): ?>
 					<?php
 						if($today2 >= 20211226):
 					?>
@@ -320,9 +311,6 @@ jQuery(function () {
 					<?php else: ?>
 						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
-				<?php else: ?>
-					<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
-				<?php endif; ?>
             </li>
           </ul>
         </div>
