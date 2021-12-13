@@ -1413,6 +1413,12 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
     background: #efefef;
     color: #000;
 }
+.shipNotice p{
+	font-weight:bold;
+}
+.shipNotice p:last-of-type{
+	margin:0;
+}
 /* ---- Responsive ---- */
 @media(max-width:1129px){
 	.slide_txt3{
