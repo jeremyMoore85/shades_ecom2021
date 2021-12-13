@@ -282,7 +282,7 @@ jQuery(function () {
 					<?php
 						$today = date('Ymd');
 						$today2 = intval($today);
-						if($today2 >= 20211213):
+						if($today2 >= 20211226):
 					?>
 						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_txt2">All regularly priced sleepwear 25% OFF</span></div>	
 					<?php elseif($today >= 20220103): ?>
@@ -295,9 +295,7 @@ jQuery(function () {
             <li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner2.jpg" alt="Shades of Sleep - Dorset" />
 				<?php if($_GET['test'] == 'true'): ?>
 					<?php
-						$today = date('Ymd');
-						$today2 = intval($today);
-						if($today2 >= 20211213):
+						if($today2 >= 20211226):
 					?>
 						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_txt2">All regularly priced sleepwear 25% OFF</span></div>	
 					<?php elseif($today >= 20220103): ?>
@@ -310,9 +308,7 @@ jQuery(function () {
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner3.jpg" alt="Shades of Sleep - PJ Salvage" />
 				<?php if($_GET['test'] == 'true'): ?>
 					<?php
-						$today = date('Ymd');
-						$today2 = intval($today);
-						if($today2 >= 20211213):
+						if($today2 >= 20211226):
 					?>
 						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><span class="slide_txt2">All regularly priced sleepwear 25% OFF</span></div>	
 					<?php elseif($today >= 20220103): ?>
