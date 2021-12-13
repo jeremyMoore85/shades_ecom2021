@@ -282,7 +282,7 @@ jQuery(function () {
 					<?php
 						$today = date('Ymd');
 						$today2 = intval($today);
-						if($today2 >= 20211226):
+						if($today2 >= 20211213):
 					?>
 						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><br />All regularly priced sleepwear 25% OFF</div>	
 					<?php elseif($today >= 20220103): ?>
