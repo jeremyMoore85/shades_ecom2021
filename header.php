@@ -281,11 +281,12 @@ jQuery(function () {
 				<?php if($_GET['test'] == 'true'): ?>
 					<?php
 						$today = date('Ymd');
-						if($today == '20211213'):
+						$today2 = intval($today);
+						if($today2 >= 20211226):
 					?>
-						<div class="caption"><span class="slide_txt3">BOXING DAY SALE</span></div>	
-					<?php else: ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>	
+						<div class="caption"><span class="slide_txt3">BOXING DAY SLEEPWEAR SALE</span><br />All regularly priced sleepwear 25% OFF</div>	
+					<?php elseif($today >= 20220103): ?>
+						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>						
 					<?php endif; ?>
 				<?php else: ?>
 					<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
