@@ -1402,6 +1402,11 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	width:50% !important;
 	margin: 0 auto !important;
 }
+.shipNotice{
+	background:rgba(191,46,26,0.5);
+	padding:1rem;
+	font-weight:bold;
+}
 /* ---- Responsive ---- */
 @media(max-width:1129px){
 	.slide_txt3{
