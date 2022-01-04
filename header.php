@@ -283,21 +283,21 @@ jQuery(function () {
 						$today2 = intval($today);
 					?>
 					<?php if($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>		
+						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS<br />January 29th through to February 14, 2022</span></div>		
 					<?php else: ?>
 						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
             </li>
             <li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner2.jpg" alt="Shades of Sleep - Dorset" />
 					<?php if($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>	
+						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS<br />January 29th through to February 14, 2022</span></div>	
 					<?php else: ?>
 						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner3.jpg" alt="Shades of Sleep - PJ Salvage" />
 					<?php if($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS January 29th through to February 14, 2022</span></div>						
+						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS<br />January 29th through to February 14, 2022</span></div>						
 					<?php else: ?>
 						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
 					<?php endif; ?>
