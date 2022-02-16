@@ -278,29 +278,13 @@ jQuery(function () {
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
 			<li> <img src="/blog/wp-content/uploads/2022/01/shades-cambridge-banner.jpg" alt="Shades of Sleep - Cambridge" />
-					<?php
-						$today = date('Ymd');
-						$today2 = intval($today);
-					?>
-					<?php if($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS<br />January 29th through to February 14, 2022</span></div>		
-					<?php else: ?>
-						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
-					<?php endif; ?>
+				 <div class="caption"><span class="slide_txt3">Stay Well, Sleep Well</span></div>
             </li>
             <li> <img src="/blog/wp-content/uploads/2022/01/shades-cabana-banner.jpg" alt="Shades of Sleep - Cabana" />
-					<?php if($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS<br />January 29th through to February 14, 2022</span></div>	
-					<?php else: ?>
-						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
-					<?php endif; ?>
+				 <div class="caption"><span class="slide_txt3">Stay Well, Sleep Well</span></div>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner1.jpg" alt="Shades of Sleep - Ayrtight" />
-					<?php if($today >= 20220103): ?>
-						<div class="caption"><span class="slide_txt3">ANNUAL BEDDING SALE STARTS<br />January 29th through to February 14, 2022</span></div>						
-					<?php else: ?>
-						<div class="caption"><span class="slide_txt3">Happy Holidays from the staff at Shades of Sleep!</span></div>
-					<?php endif; ?>
+				 <div class="caption"><span class="slide_txt3">Stay Well, Sleep Well</span></div>
             </li>
           </ul>
         </div>
