@@ -84,7 +84,7 @@ jQuery(function () {
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 		/* POPUP SCRIPTS */
-		$(".popupHolder").delay(30000).fadeIn(500);
+		$(".popupHolder").delay(5000).fadeIn(500);
 		$('.popupClose').click(function(){
 			$('.popupHolder').hide();
 		});
