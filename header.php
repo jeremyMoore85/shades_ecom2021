@@ -284,7 +284,7 @@ jQuery(function () {
 				 <div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner1.jpg" alt="Shades of Sleep - Ayrtight" />
-				 <div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
+				 <div class="caption"><span class="slide_txt3">Sleep Well. Stay Well. </span></div>
             </li>
           </ul>
         </div>
