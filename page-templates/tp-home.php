@@ -48,7 +48,7 @@ global $post;
       <div class="imageBlock" style="background-image: url('/blog/wp-content/uploads/2021/04/shades-of-sleep-fav-bedlinen.jpg');"> <a href="/product-category/best-linens/" class="cta_link"></a>
         <div class="inner">
           <div class="innerBlock">
-            <h2>Our Favorite Bedlinens</h2>
+            <h2>Our Favorite Bedding</h2>
           </div>
         </div>
       	<div class="overlay"></div>
