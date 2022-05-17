@@ -126,7 +126,7 @@ jQuery(function () {
 }
 .popupClose{
 	position:absolute;
-	right:0.5rem;
+	right:2rem;
 	top:0.5rem;
 	color:#EFEFEF;
 	cursor:pointer;
