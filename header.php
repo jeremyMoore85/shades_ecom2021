@@ -219,10 +219,10 @@ jQuery(function () {
 					<div class="col-xs-12">
 						<div class="popupCnt">
 							<div class="row d-flex">
-								<div class="col-xs-4">
+								<div class="col-xs-12 col-lg-4">
 									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2021/11/ju-ju-image.jpg" alt="Shades of Sleep - Bed Head" class="popImg" />
 								</div>
-								<div class="col-xs-8 text-left popCnt">
+								<div class="col-xs-12 col-lg-8 text-left popCnt">
 									<div class="popLogo">
 										<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
 									</div>
