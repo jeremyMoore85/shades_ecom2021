@@ -1419,6 +1419,9 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 .shipNotice p:last-of-type{
 	margin:0;
 }
+.woocommerce .actions{
+	display:none;
+}
 /* ---- Responsive ---- */
 @media(max-width:1129px){
 	.slide_txt3{
