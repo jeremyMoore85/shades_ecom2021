@@ -1419,7 +1419,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 .shipNotice p:last-of-type{
 	margin:0;
 }
-.woocommerce .actions{
+.woocommerce .actions .coupon{
 	display:none;
 }
 /* ---- Responsive ---- */
