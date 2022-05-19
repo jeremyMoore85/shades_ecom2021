@@ -21,4 +21,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<h3 style="padding-bottom:30px;">Available In-store &amp; Online</h3>
