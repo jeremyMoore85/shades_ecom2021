@@ -49,6 +49,9 @@ if ( post_password_required() ) {
         <div class="productCart">
         	<?php woocommerce_template_single_add_to_cart(); ?>
         </div>
+<?php if($_GET['test'] == 'true'): ?>
+		SHIPPING CLASS:
+<?php endif; ?>
 <?php
 	$terms = get_the_terms($post->ID, 'product_cat');
 	foreach($terms as $term){
