@@ -53,9 +53,9 @@ if ( post_password_required() ) {
 		SHIPPING CLASS: <?php echo $product->get_shipping_class(); ?>
 		<?php
 			$shippingClass = $product->get_shipping_class(); 
-			if($shippingClass == 'Custom 4 Weeks'):
+			if($shippingClass == 'custom-4-wks'):
 				the_field('custom4Msg','options');
-			elseif($shippingClass == 'Custom 8 Weeks'):
+			elseif($shippingClass == 'custom-8-wks'):
 				the_field('custom4Msg','options');
 			endif; 
 		?>
