@@ -51,6 +51,14 @@ if ( post_password_required() ) {
         </div>
 <?php if($_GET['test'] == 'true'): ?>
 		SHIPPING CLASS: <?php echo $product->get_shipping_class(); ?>
+		<?php
+			$shippingClass = $product->get_shipping_class(); 
+			if($shippingClass == 'Custom 4 Weeks'):
+				the_field('custom4Msg','options');
+			elseif($shippingClass == 'Custom 8 Weeks'):
+				the_field('custom4Msg','options');
+			endif; 
+		?>
 <?php endif; ?>
 <?php
 	$terms = get_the_terms($post->ID, 'product_cat');
