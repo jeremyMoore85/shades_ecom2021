@@ -50,7 +50,7 @@ if ( post_password_required() ) {
         	<?php woocommerce_template_single_add_to_cart(); ?>
         </div>
 <?php if($_GET['test'] == 'true'): ?>
-		SHIPPING CLASS:
+		SHIPPING CLASS: <?php echo get_shipping_class(); ?> 
 <?php endif; ?>
 <?php
 	$terms = get_the_terms($post->ID, 'product_cat');
