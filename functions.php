@@ -963,7 +963,6 @@ add_action( 'pre_get_posts', 'my_change_sort_order');
 
 
 if( function_exists('acf_add_options_page') ) {
-	
 	acf_add_options_page();
 	
 }
