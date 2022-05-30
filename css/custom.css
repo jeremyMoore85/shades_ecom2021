@@ -81,6 +81,9 @@ ol li{
 	margin-bottom:1rem;
 	margin-left:0;
 }
+ul.list{
+	list-style:disc;
+}
 .clear {
 	clear: both;
 }
