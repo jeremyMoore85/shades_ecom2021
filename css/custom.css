@@ -82,7 +82,9 @@ ol li{
 	margin-left:0;
 }
 ul.list{
-	list-style:disc;
+	list-style: disc;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
 }
 .clear {
 	clear: both;
