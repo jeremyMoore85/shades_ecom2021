@@ -581,11 +581,11 @@ a:hover {
 }
 .slide_txt4 {
 	font-family: 'Frutiger LT Std Light';
-	color: #000;
+	color: #fff;
 	font-size: 30px;
 	width: 100%;
 	float: right;
-	text-shadow: 3px 0 3px #fff;
+	text-shadow: 1px 0 2px #000;
 	line-height: 36px;
 	padding:0 5%;
 }
