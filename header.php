@@ -278,13 +278,13 @@ jQuery(function () {
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
 			<li> <img src="/blog/wp-content/uploads/2022/05/aniversary-michelle-main.jpg" alt="Shades of Sleep - Cambridge" />
-				 <div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!   In store and on line everything is 13% off from June 9 to June 12, 2022.</span></div>
+				<div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!</span>In store and on line everything is 13% off from June 9 to June 12, 2022.</div>
             </li>
             <li> <img src="/blog/wp-content/uploads/2022/05/wrap-up-banner.jpg" alt="Shades of Sleep - Cabana" />
-				 <div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!   In store and on line everything is 13% off from June 9 to June 12, 2022.</span></div>
+				<div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!</span>In store and on line everything is 13% off from June 9 to June 12, 2022.</div>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2022/05/13-aniversary-banner.jpg" alt="Shades of Sleep - Ayrtight" />
-				 <div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!   In store and on line everything is 13% off from June 9 to June 12, 2022.</span></div>
+				<div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!</span>In store and on line everything is 13% off from June 9 to June 12, 2022.</div>
             </li>
           </ul>
         </div>
