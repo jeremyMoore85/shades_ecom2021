@@ -277,14 +277,14 @@ jQuery(function () {
 	<div class="slider_main">
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
-			<li> <img src="/blog/wp-content/uploads/2022/01/shades-cambridge-banner.jpg" alt="Shades of Sleep - Cambridge" />
-				 <div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
+			<li> <img src="/blog/wp-content/uploads/2022/05/aniversary-michelle-main.jpg" alt="Shades of Sleep - Cambridge" />
+				 <div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!   In store and on line everything is 13% off from June 9 to June 12, 2022.</span></div>
             </li>
-            <li> <img src="/blog/wp-content/uploads/2022/01/shades-cabana-banner.jpg" alt="Shades of Sleep - Cabana" />
-				 <div class="caption"><span class="slide_txt3">Sleep Well. Stay Well.</span></div>
+            <li> <img src="/blog/wp-content/uploads/2022/05/wrap-up-banner.jpg" alt="Shades of Sleep - Cabana" />
+				 <div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!   In store and on line everything is 13% off from June 9 to June 12, 2022.</span></div>
             </li>
-			<li> <img src="/blog/wp-content/uploads/2021/11/shades-of-sleep-banner1.jpg" alt="Shades of Sleep - Ayrtight" />
-				 <div class="caption"><span class="slide_txt3">Sleep Well. Stay Well. </span></div>
+			<li> <img src="/blog/wp-content/uploads/2022/05/13-aniversary-banner.jpg" alt="Shades of Sleep - Ayrtight" />
+				 <div class="caption"><span class="slide_txt3">Enjoy our 13 year anniversary sale!   In store and on line everything is 13% off from June 9 to June 12, 2022.</span></div>
             </li>
           </ul>
         </div>
