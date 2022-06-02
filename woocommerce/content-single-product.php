@@ -49,7 +49,7 @@ if ( post_password_required() ) {
         <div class="productCart">
         	<?php woocommerce_template_single_add_to_cart(); ?>
         </div>
-		<p>
+		<p style="text-align:center; color:#FF0000; font-weight:bold;">
 		<?php
 			$shippingClass = $product->get_shipping_class(); 
 			if($shippingClass == 'custom-4-wks'):
