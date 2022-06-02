@@ -49,7 +49,7 @@ if ( post_password_required() ) {
         <div class="productCart">
         	<?php woocommerce_template_single_add_to_cart(); ?>
         </div>
-<?php if($_GET['test'] == 'true'): ?>
+		<p>
 		<?php
 			$shippingClass = $product->get_shipping_class(); 
 			if($shippingClass == 'custom-4-wks'):
@@ -58,7 +58,7 @@ if ( post_password_required() ) {
 				the_field('custom4Msg','options');
 			endif; 
 		?>
-<?php endif; ?>
+		</p>
 <?php
 	$terms = get_the_terms($post->ID, 'product_cat');
 	foreach($terms as $term){
