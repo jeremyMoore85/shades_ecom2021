@@ -48,7 +48,7 @@ if ( empty( $product ) || !$product->is_visible() ) {
     }
     ?>
 	<?php if(has_term( 176, 'product_cat' )): ?>
-	<?php if(is_category('cotton-pajamas')): ?>
+	<?php if(is_product_category('cotton-pajamas')): ?>
     <div class="brandInfo"> <a href="<?php echo get_term_link($catID); ?>" class="brandLink">
       <h4>Shop More Products By</h4>
       <img src="<?php echo get_field('logo', 'product_cat_'.$catID); ?>" /> </a> </div>
