@@ -216,6 +216,14 @@ jQuery(function () {
 		.popImage{
 			display:none;
 		}
+		.popDesc, .popTerms{
+			padding: 20px 30px;
+			margin-top:1rem;
+		}
+		.popupClose{
+			right: 3rem;
+			top: 2.5rem;
+		}
 	}
 </style>
 <div class="popupHolder">
