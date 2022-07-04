@@ -216,6 +216,10 @@ jQuery(function () {
 		.popImage{
 			display:none;
 		}
+		.popLogo{
+			padding: 20px 30px;
+    		margin-top: 6rem;
+		}
 		.popDesc, .popTerms{
 			padding: 20px 30px;
 			margin-top:1rem;
