@@ -173,6 +173,9 @@ jQuery(function () {
 	.popLogo{
 		padding:20px;
 	}
+	.popLogo img{
+		height:100px; width:auto; margin-bottom:1rem;
+	}
 	.popDec{
 		padding: 0 30px 2rem 0;
 	}
@@ -224,7 +227,7 @@ jQuery(function () {
 								</div>
 								<div class="col-xs-12 col-lg-8 text-left popCnt">
 									<div class="popLogo">
-										<img src="https://www.shadesofsleep.ca/images/logo.png" style="height:100px; width:auto; margin-bottom:1rem;">
+										<img src="https://www.shadesofsleep.ca/images/logo.png">
 									</div>
 									<div class="popDec">
 										<h3>Join Our VIP Sleepers Club!</h3>
