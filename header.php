@@ -212,6 +212,11 @@ jQuery(function () {
 	.popForm .form-control.formBtn:hover{
 		background:#BF2E1A;
 	}
+	@media screen and (max-width:992px){
+		.popImage{
+			display:none;
+		}
+	}
 </style>
 <div class="popupHolder">
 	<div class="popupFlex">
@@ -222,7 +227,7 @@ jQuery(function () {
 					<div class="col-xs-12">
 						<div class="popupCnt">
 							<div class="row d-flex">
-								<div class="col-xs-12 col-lg-4">
+								<div class="col-xs-12 col-lg-4 popImage">
 									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2021/11/ju-ju-image.jpg" alt="Shades of Sleep - Bed Head" class="popImg" />
 								</div>
 								<div class="col-xs-12 col-lg-8 text-left popCnt">
