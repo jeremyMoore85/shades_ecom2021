@@ -171,7 +171,11 @@ jQuery(function () {
 		object-fit:cover;
 	}
 	.popLogo{
-		padding:4rem 30px 2rem 0;
+		padding:20px;
+	}
+	.popLogo img{
+		width:100%;
+		height:auto;
 	}
 	.popDec{
 		padding: 0 30px 2rem 0;
