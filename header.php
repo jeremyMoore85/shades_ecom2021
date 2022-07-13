@@ -229,7 +229,7 @@ jQuery(function () {
     		margin-top: 3rem;
 		}
 		.popDec{
-			padding:0px 2rem 0 2rem;
+			padding:0px 2rem 2rem 2rem;
 		}
 		.popDesc, .popTerms{
 			padding: 20px 30px;
