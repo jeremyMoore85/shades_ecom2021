@@ -275,7 +275,7 @@ jQuery(function () {
 											</div>
 										</form>
 									</div>
-									<div class="popTerms hidden-xs visible-md">
+									<div class="popTerms hidden-xs visible-md visible-lg visible-xl">
 										<p>*By submitting your email address, you are providing your consent to Shades of Sleep &amp; Accessories Inc. to send electronic messages to your email or similar account about updates on future events, promotions and exciting new products that have arrived in store.”   You can withdraw your consent at any time by <a href="/contact-store-hours/">contacting us</a> or selecting unsubscribe at the bottom of your email.  We will treat the information that you provide in accordance with our <a href="/privacy-policy/">Privacy Policy</a>.</p>
 									</div>
 								</div>
