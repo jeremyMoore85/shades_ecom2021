@@ -250,7 +250,7 @@ jQuery(function () {
 								</div>
 								<div class="col-xs-12 col-lg-8 text-left popCnt">
 									<div class="popLogo">
-										<img src="https://www.shadesofsleep.ca/images/logo.png">
+										<img src="https://www.shadesofsleep.ca/images/logo.png" class="img-fluid">
 									</div>
 									<div class="popDec">
 										<h3>Join Our VIP Sleepers Club!</h3>
