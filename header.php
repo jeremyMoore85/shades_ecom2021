@@ -213,6 +213,10 @@ jQuery(function () {
 		background:#BF2E1A;
 	}
 	@media screen and (max-width:992px){
+		.popLogo img{
+			width:100%;
+			height:auto;
+		}
 		.popDec h3{
 			font-size:28px;
 		}
