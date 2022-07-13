@@ -214,6 +214,7 @@ jQuery(function () {
 	}
 	@media screen and (max-width:992px){
 		.popLogo img{
+			width:308px;
 			max-width:100%;
 			height:auto;
 		}
