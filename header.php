@@ -213,6 +213,9 @@ jQuery(function () {
 		background:#BF2E1A;
 	}
 	@media screen and (max-width:992px){
+		.popDec h3{
+			font-size:28px;
+		}
 		.popImage{
 			display:none;
 		}
@@ -221,7 +224,7 @@ jQuery(function () {
     		margin-top: 6rem;
 		}
 		.popDec{
-			padding:30px 2rem;
+			padding:0px 2rem 0 2rem;
 		}
 		.popDesc, .popTerms{
 			padding: 20px 30px;
