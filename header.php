@@ -221,7 +221,7 @@ jQuery(function () {
 		}
 		.popLogo{
 			padding: 20px 30px;
-    		margin-top: 6rem;
+    		margin-top: 3rem;
 		}
 		.popDec{
 			padding:0px 2rem 0 2rem;
