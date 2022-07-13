@@ -215,7 +215,7 @@ jQuery(function () {
 	@media screen and (max-width:992px){
 		.popLogo img{
 			width:308px;
-			max-width:90%%;
+			max-width:90%;
 			height:auto;
 		}
 		.popDec h3{
