@@ -55,7 +55,7 @@ if ( post_password_required() ) {
 			if($shippingClass == 'custom-4-wks'):
 				the_field('custom4Msg','options');
 			elseif($shippingClass == 'custom-8-wks'):
-				the_field('custom4Msg','options');
+				the_field('custom8Msg','options');
 			endif; 
 		?>
 		</div>
