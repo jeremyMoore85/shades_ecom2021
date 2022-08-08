@@ -1693,11 +1693,13 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
     color: #FFF;
 }
 .swatchCnt h2{
-	color:#FFF;
+	color: #FFF;
+    line-height: 40px;
+    margin-bottom: 2rem;
 }
 .swatchCnt h2 span{
 	clear:both;
-	font-size:1.2rem;
+	font-size:1.8rem;
 	font-style:italic;
 }
 .swatchCnt .btn{
