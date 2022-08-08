@@ -146,7 +146,6 @@ jQuery(function () {
 	</div>
 </div>	
 <?php endif; ?>
-<?php if($_GET['test'] == true): ?>
 <div class="popupHolder" id="swatchPopup">
 	<div class="popupFlex">
 	<div class="container">
@@ -177,7 +176,6 @@ jQuery(function () {
 		</div>
 	</div>
 </div>	
-<?php endif; ?>
 <div class="mobile_call_top"><a href="tel:403-457-0092">(403) 457-0092</a> | <a href="/contact-store-hours/" class="contact_top">Contact Us</a></div>
 <div id="wrapper">
 <div class="header_top"><div class="header_notification text-center" style="background:#F15C22;color:#fff;padding:5px 0px;">Free Shipping on ALL sleepwear in Canada over $150.00</div>

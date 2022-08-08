@@ -35,7 +35,6 @@ if ( post_password_required() ) {
 <div class="row">
 	<div class="col-xs-12 col-md-6" id="productGal">
     	<?php woocommerce_show_product_images(); ?>
-		<?php if($_GET['test']=='true'): ?>
 		<?php 
 			$swatchFrm = get_field('request_swatch');
 			$questionFrm = get_field('questions_form');
@@ -49,7 +48,6 @@ if ( post_password_required() ) {
 			<div class="btn" id="questionsBtn">Have Questions?</div>
 			<?php endif; ?>
 		</div>
-		<?php endif; ?>
 		<?php endif; ?>
     </div>
     <div class="col-xs-12 col-md-6" id="productStats">
