@@ -99,46 +99,14 @@ jQuery(function () {
 		document.cookie = 'shadePopup = 1; expires=' + expiryDate.toGMTString();
 	});
 </script>
-<div class="popupHolder" id="vipPopup">
+<div class="popupHolder" id="swatchPopup">
 	<div class="popupFlex">
 	<div class="popup">
 			<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
 			<div class="container p-0">
 				<div class="row">
-					<div class="col-xs-12">
-						<div class="popupCnt">
-							<div class="row d-flex">
-								<div class="col-xs-12 col-lg-4 popImage">
-									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2021/11/ju-ju-image.jpg" alt="Shades of Sleep - Bed Head" class="popImg" />
-								</div>
-								<div class="col-xs-12 col-lg-8 text-left popCnt">
-									<div class="popLogo">
-										<img src="https://www.shadesofsleep.ca/images/logo.png" class="img-fluid">
-									</div>
-									<div class="popDec">
-										<h3>Join Our VIP Sleepers Club!</h3>
-										<p>For new arrivals, store news &amp; surprises and so much more….</p>
-										<form method="post" class="popForm" action="https://shadesofsleep.us3.list-manage.com/subscribe/post">
-											<div class="form-group">
-												<input type="email" class="form-control" name="MERG0" placeholder="Email Address" />
-											</div>
-											<div class="form-group">
-												<input type="text" class="form-control" name="MERGE1" placeholder="First Name" />
-											</div>
-											<div class="form-group">
-												<input type="text" class="form-control" name="MERGE2" placeholder="Last Name" />
-											</div>
-											<div class="form-group">
-												<input type="submit" class="form-control formBtn" value="Join Now!" />
-											</div>
-										</form>
-									</div>
-									<div class="popTerms hidden-xs visible-md visible-lg visible-xl">
-										<p>*By submitting your email address, you are providing your consent to Shades of Sleep &amp; Accessories Inc. to send electronic messages to your email or similar account about updates on future events, promotions and exciting new products that have arrived in store.”   You can withdraw your consent at any time by <a href="/contact-store-hours/">contacting us</a> or selecting unsubscribe at the bottom of your email.  We will treat the information that you provide in accordance with our <a href="/privacy-policy/">Privacy Policy</a>.</p>
-									</div>
-								</div>
-							</div>							
-						</div>
+					<div class="col-12 text-center">
+						<h2>Request a Swatch</h2>
 					</div>
 				</div>
 			</div>
