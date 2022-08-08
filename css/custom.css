@@ -1704,14 +1704,16 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	font-style:italic;
 }
 .swatchCnt .btn{
-	max-width: 50%;
-    padding: 16px 0;
+	display: block;
+    padding: 20px;
     background: #F15C22;
     color: #FFF;
-    border-radius: 0;
-    font-weight: bold;
-    font-size: 16px;
-    display: block;
+    width: 100%;
+    margin-right: 15px;
+}
+.swatchCnt .btn:last-child{
+	margin-right:0;
+	margin-left:15px;
 }
 .swatchCnt .form-hidden{
 	display:none;
