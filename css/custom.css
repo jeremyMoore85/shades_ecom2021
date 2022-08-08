@@ -1728,6 +1728,10 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	margin-right:0;
 	margin-left:15px;
 }
+.btnFlex .btn:first-child{
+	margin-left:0;
+	margin-right:0;
+}
 .btnFlex .btn:hover{
 	background:#F15C22;
 }
