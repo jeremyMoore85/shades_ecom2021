@@ -99,22 +99,6 @@ jQuery(function () {
 		document.cookie = 'shadePopup = 1; expires=' + expiryDate.toGMTString();
 	});
 </script>
-<div class="popupHolder" id="swatchPopup">
-	<div class="popupFlex">
-	<div class="popup">
-			<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
-			<div class="container p-0">
-				<div class="row">
-					<div class="col-12 text-center">
-						<h2>Request a Swatch</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>	
-<?php endif; ?>
-<?php if($_GET['test'] == true): ?>
 <div class="popupHolder" id="vipPopup">
 	<div class="popupFlex">
 	<div class="popup">
@@ -155,6 +139,22 @@ jQuery(function () {
 								</div>
 							</div>							
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+<?php endif; ?>
+<?php if($_GET['test'] == true): ?>
+<div class="popupHolder" id="swatchPopup">
+	<div class="popupFlex">
+	<div class="popup">
+			<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
+			<div class="container p-0">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h2>Request a Swatch</h2>
 					</div>
 				</div>
 			</div>
