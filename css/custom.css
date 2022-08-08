@@ -1706,11 +1706,17 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	font-style:italic;
 }
 .swatchCnt .btn{
+	background: #bf2e1a;
+    color: #fff;
+    padding: 16px 30px;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    font-weight: bold;
+	min-width:150px;
+}
+.swatchCnt .btn:hover{
 	background:#F15C22;
-	color:#fff;
-	padding:16px 0;
-	display:block;
-	font-size:18px;
 }
 .swatchCnt .form-hidden{
 	display:none;
