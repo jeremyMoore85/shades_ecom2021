@@ -1704,9 +1704,25 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	font-style:italic;
 }
 .swatchCnt .btn{
-	background:#F15C22;
-	color:#fff;
+	max-width: 50%;
+    padding: 16px 0;
+    background: #F15C22;
+    color: #FFF;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
 }
 .swatchCnt .form-hidden{
 	display:none;
+}
+.btnFlex{
+	display:flex;
+	justify-content:space-between;
+}
+.btnFlex .btn{
+	max-width:50%;
+	padding:20px;
+	background:#F15C22;
+	color:#FFF;
 }

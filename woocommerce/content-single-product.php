@@ -36,8 +36,10 @@ if ( post_password_required() ) {
 	<div class="col-xs-12 col-md-6" id="productGal">
     	<?php woocommerce_show_product_images(); ?>
 		<?php if($_GET['test']=='true'): ?>
+		<div class="btnFlex">
 			<div class="btn" id="swatchBtn">Request Swatch</div>
 			<div class="btn" id="questionsBtn">Have Questions?</div>
+		</div>
 		<?php endif; ?>
     </div>
     <div class="col-xs-12 col-md-6" id="productStats">
