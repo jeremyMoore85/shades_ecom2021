@@ -36,10 +36,20 @@ if ( post_password_required() ) {
 	<div class="col-xs-12 col-md-6" id="productGal">
     	<?php woocommerce_show_product_images(); ?>
 		<?php if($_GET['test']=='true'): ?>
+		<?php 
+			$swatchFrm = get_field('request_swatch');
+			$questionFrm = get_field('questions_form');
+		?>
+		<?php if($swatchFrm == 'true' || $questionFrm == 'true'): ?>
 		<div class="btnFlex">
+			<?php if($swatchFrm == 'true'): ?>
 			<div class="btn" id="swatchBtn">Request Swatch</div>
+			<?php endif; ?>
+			<?php if($questionFrm == 'true'): ?>
 			<div class="btn" id="questionsBtn">Have Questions?</div>
+			<?php endif; ?>
 		</div>
+		<?php endif; ?>
 		<?php endif; ?>
     </div>
     <div class="col-xs-12 col-md-6" id="productStats">

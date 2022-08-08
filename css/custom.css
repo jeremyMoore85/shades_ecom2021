@@ -1717,7 +1717,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 .btnFlex .btn{	
 	display: block;
     padding: 16px 0;
-    background: #F15C22;
+    background: #bf2e1a;
     color: #FFF;
     width: 100%;
     margin-right: 15px;
@@ -1729,5 +1729,5 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	margin-left:15px;
 }
 .btnFlex .btn:hover{
-	background:#bf2e1a;
+	background:#F15C22;
 }
