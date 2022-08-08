@@ -96,6 +96,18 @@ jQuery(document).ready(function($){
 		}
 		clearInterval(priceVar);
 	}
+	$('#swatchBtn').click(function(){
+		$('#swatchPopup').show();
+	});
+	$('#swatchPopup .popupClose').click(function(){
+		$('#swatchPopup').hide();
+	});
+	$('#questionsBtn').click(function(){
+		$('#questionsPopup').show();
+	});
+	$('#questionsPopup .popupClose').click(function(){
+		$('#questionsPopup').hide();
+	});
 });
 <?php endif; ?>
 <?php if(is_archive('questions')):?>

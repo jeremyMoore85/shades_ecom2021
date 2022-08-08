@@ -85,13 +85,13 @@ jQuery(function () {
 	jQuery(document).ready(function($){
 		/* POPUP SCRIPTS */
 		$("#vipPopup").delay(5000).fadeIn(500);
-		$('.popupClose').click(function(){
+		$('#vipPopup .popupClose').click(function(){
 			$('#vipPopup').hide();
 		});
-		$('.popupHolder').click(function(){
+		$('#vipPopup .popupHolder').click(function(){
 			$('#vipPopup').hide();
 		})
-		$('.popupCnt').click(function(event){
+		$('#vipPopup .popupCnt').click(function(event){
 			event.stopPropagation();
 		});				
 		var expiryDate = new Date();
@@ -156,6 +156,21 @@ jQuery(function () {
 					<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
 					<h2>Request a Swatch<br /><span><?php echo get_the_title(); ?></span></h2>
 					<?php echo do_shortcode('[contact-form-7 id="17711" title="Request A Swatch"]'); ?>
+				</div>				
+			</div>
+		</div>
+		</div>
+	</div>
+</div>	
+<div class="popupHolder" id="questionsPopup">
+	<div class="popupFlex">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+				<div class="swatchCnt">
+					<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
+					<h2>Have Questions?<br /><span><?php echo get_the_title(); ?></span></h2>
+					<?php echo do_shortcode('[contact-form-7 id="17711" title="Have Questions?"]'); ?>
 				</div>				
 			</div>
 		</div>
