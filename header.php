@@ -84,12 +84,12 @@ jQuery(function () {
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 		/* POPUP SCRIPTS */
-		$(".popupHolder").delay(5000).fadeIn(500);
+		$("#vipPopup").delay(5000).fadeIn(500);
 		$('.popupClose').click(function(){
-			$('.popupHolder').hide();
+			$('#vipPopup').hide();
 		});
 		$('.popupHolder').click(function(){
-			$('.popupHolder').hide();
+			$('#vipPopup').hide();
 		})
 		$('.popupCnt').click(function(event){
 			event.stopPropagation();
@@ -99,149 +99,55 @@ jQuery(function () {
 		document.cookie = 'shadePopup = 1; expires=' + expiryDate.toGMTString();
 	});
 </script>
-<style type="text/css">
-.popupHolder{
-	position:fixed;
-	top:0;
-	left:0;
-	width:100vw;
-	height:100vh;
-	background:rgba(0,0,0,0.5);
-	z-index:888888;
-	display:none;
-}
-.popupFlex{	
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	width:100%;
-	height:100%;
-}
-.popup{
-	position:relative;
-	background:rgba(70,70,70,1);
-	border-radius:0.3rem;
-	color:#fff;
-	border:2px solid rgba(255,255,255,0.5);
-}
-.popupClose{
-	position:absolute;
-	right:2rem;
-	top:0.5rem;
-	color:#EFEFEF;
-	cursor:pointer;
-	z-index:999999;
-}
-.popupClose:hover{
-	color:#FFF;
-}
-.popupCnt{
-	text-align:center;	
-	font-size:1.5rem;
-}	
-	.popupCnt p{
-		font-size: 1.75rem;
-		line-height: 1.5;
-		margin: 0.5rem 0;
-	}
-	.popupCnt a, .popupCnt a:visited{
-		color:#fff;
-		font-weight:bold;
-		font-style: italic;
-	}
-	.popup_btn{
-		background: #BF2E1A;
-		padding: 1rem 2rem;
-		color: #fff;
-		margin-top: 1rem;
-		font-weight: bold;
-		text-transform: uppercase;
-		margin:1.5rem 2rem;
-		display:inline-block;
-		font-style:normal;
-	}
-	.popup_btn:hover{
-		background:#ce3723;
-		color:#fff;
-		text-decoration: none;
-	}
-	.popImg{
-		width:100%;
-		height:100%;
-		object-fit:cover;
-	}
-	.popLogo{
-		padding:20px;
-	}
-	.popLogo img{
-		height:100px; width:auto; margin-bottom:1rem;
-	}
-	.popDec{
-		padding: 0 30px 2rem 0;
-	}
-	.popDec h3{
-		color:#fff;
-	}
-	.popTerms{
-		padding:0 30px 1rem 0;
-	}
-	.popTerms p{
-		font-size:13px;
-		color:rgba(255,255,255,0.8);
-	}
-	.d-flex{
-		display:flex;
-	}
-	.popForm{
-		margin-top:2rem;
-	}
-	.popForm .form-control{
-		background:rgba(0,0,0,0.25);
-		font-size:18px;
-	}
-	.popForm .form-control.formBtn{
-		background: #F15C22;
-		font-weight: bold;
-		border: none;
-		font-size: 16px;
-		color: #FFF;
-		display: block;
-		height: auto;
-		text-transform: uppercase;
-	}
-	.popForm .form-control.formBtn:hover{
-		background:#BF2E1A;
-	}
-	@media screen and (max-width:992px){
-		.popLogo img{
-			width:308px;
-			max-width:90%;
-			height:auto;
-		}
-		.popDec h3{
-			font-size:28px;
-		}
-		.popImage{
-			display:none;
-		}
-		.popLogo{
-			padding: 20px 30px;
-    		margin-top: 3rem;
-		}
-		.popDec{
-			padding:0px 2rem 2rem 2rem;
-		}
-		.popDesc, .popTerms{
-			padding: 20px 30px;
-			margin-top:1rem;
-		}
-		.popupClose{
-			right: 3rem;
-			top: 2.5rem;
-		}
-	}
-</style>
-<div class="popupHolder">
+<div class="popupHolder" id="vipPopup">
+	<div class="popupFlex">
+	<div class="popup">
+			<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
+			<div class="container p-0">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="popupCnt">
+							<div class="row d-flex">
+								<div class="col-xs-12 col-lg-4 popImage">
+									<img src="https://www.shadesofsleep.ca/blog/wp-content/uploads/2021/11/ju-ju-image.jpg" alt="Shades of Sleep - Bed Head" class="popImg" />
+								</div>
+								<div class="col-xs-12 col-lg-8 text-left popCnt">
+									<div class="popLogo">
+										<img src="https://www.shadesofsleep.ca/images/logo.png" class="img-fluid">
+									</div>
+									<div class="popDec">
+										<h3>Join Our VIP Sleepers Club!</h3>
+										<p>For new arrivals, store news &amp; surprises and so much more….</p>
+										<form method="post" class="popForm" action="https://shadesofsleep.us3.list-manage.com/subscribe/post">
+											<div class="form-group">
+												<input type="email" class="form-control" name="MERG0" placeholder="Email Address" />
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" name="MERGE1" placeholder="First Name" />
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" name="MERGE2" placeholder="Last Name" />
+											</div>
+											<div class="form-group">
+												<input type="submit" class="form-control formBtn" value="Join Now!" />
+											</div>
+										</form>
+									</div>
+									<div class="popTerms hidden-xs visible-md visible-lg visible-xl">
+										<p>*By submitting your email address, you are providing your consent to Shades of Sleep &amp; Accessories Inc. to send electronic messages to your email or similar account about updates on future events, promotions and exciting new products that have arrived in store.”   You can withdraw your consent at any time by <a href="/contact-store-hours/">contacting us</a> or selecting unsubscribe at the bottom of your email.  We will treat the information that you provide in accordance with our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+									</div>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+<?php endif; ?>
+<?php if($_GET['test'] == true): ?>
+<div class="popupHolder" id="vipPopup">
 	<div class="popupFlex">
 	<div class="popup">
 			<div class="popupClose"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>

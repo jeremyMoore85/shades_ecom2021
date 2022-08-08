@@ -1543,3 +1543,145 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 		padding-top:120px;
 	}
 }
+
+
+.popupHolder{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background:rgba(0,0,0,0.5);
+	z-index:888888;
+	display:none;
+}
+.popupFlex{	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	height:100%;
+}
+.popup{
+	position:relative;
+	background:rgba(70,70,70,1);
+	border-radius:0.3rem;
+	color:#fff;
+	border:2px solid rgba(255,255,255,0.5);
+}
+.popupClose{
+	position:absolute;
+	right:2rem;
+	top:0.5rem;
+	color:#EFEFEF;
+	cursor:pointer;
+	z-index:999999;
+}
+.popupClose:hover{
+	color:#FFF;
+}
+.popupCnt{
+	text-align:center;	
+	font-size:1.5rem;
+}	
+	.popupCnt p{
+		font-size: 1.75rem;
+		line-height: 1.5;
+		margin: 0.5rem 0;
+	}
+	.popupCnt a, .popupCnt a:visited{
+		color:#fff;
+		font-weight:bold;
+		font-style: italic;
+	}
+	.popup_btn{
+		background: #BF2E1A;
+		padding: 1rem 2rem;
+		color: #fff;
+		margin-top: 1rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin:1.5rem 2rem;
+		display:inline-block;
+		font-style:normal;
+	}
+	.popup_btn:hover{
+		background:#ce3723;
+		color:#fff;
+		text-decoration: none;
+	}
+	.popImg{
+		width:100%;
+		height:100%;
+		object-fit:cover;
+	}
+	.popLogo{
+		padding:20px;
+	}
+	.popLogo img{
+		height:100px; width:auto; margin-bottom:1rem;
+	}
+	.popDec{
+		padding: 0 30px 2rem 0;
+	}
+	.popDec h3{
+		color:#fff;
+	}
+	.popTerms{
+		padding:0 30px 1rem 0;
+	}
+	.popTerms p{
+		font-size:13px;
+		color:rgba(255,255,255,0.8);
+	}
+	.d-flex{
+		display:flex;
+	}
+	.popForm{
+		margin-top:2rem;
+	}
+	.popForm .form-control{
+		background:rgba(0,0,0,0.25);
+		font-size:18px;
+	}
+	.popForm .form-control.formBtn{
+		background: #F15C22;
+		font-weight: bold;
+		border: none;
+		font-size: 16px;
+		color: #FFF;
+		display: block;
+		height: auto;
+		text-transform: uppercase;
+	}
+	.popForm .form-control.formBtn:hover{
+		background:#BF2E1A;
+	}
+	@media screen and (max-width:992px){
+		.popLogo img{
+			width:308px;
+			max-width:90%;
+			height:auto;
+		}
+		.popDec h3{
+			font-size:28px;
+		}
+		.popImage{
+			display:none;
+		}
+		.popLogo{
+			padding: 20px 30px;
+    		margin-top: 3rem;
+		}
+		.popDec{
+			padding:0px 2rem 2rem 2rem;
+		}
+		.popDesc, .popTerms{
+			padding: 20px 30px;
+			margin-top:1rem;
+		}
+		.popupClose{
+			right: 3rem;
+			top: 2.5rem;
+		}
+	}
