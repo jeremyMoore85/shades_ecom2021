@@ -1716,13 +1716,18 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 }
 .btnFlex .btn{	
 	display: block;
-    padding: 20px;
+    padding: 16px 0;
     background: #F15C22;
     color: #FFF;
     width: 100%;
     margin-right: 15px;
+    font-weight: bold;
+    font-size: 16px;
 }
 .btnFlex .btn:last-child{
 	margin-right:0;
 	margin-left:15px;
+}
+.btnFlex .btn:hover{
+	background:#bf2e1a;
 }
