@@ -1704,16 +1704,8 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	font-style:italic;
 }
 .swatchCnt .btn{
-	display: block;
-    padding: 20px;
-    background: #F15C22;
-    color: #FFF;
-    width: 100%;
-    margin-right: 15px;
-}
-.swatchCnt .btn:last-child{
-	margin-right:0;
-	margin-left:15px;
+	background:#F15C22;
+	color:#fff;
 }
 .swatchCnt .form-hidden{
 	display:none;
@@ -1722,9 +1714,15 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	display:flex;
 	justify-content:space-between;
 }
-.btnFlex .btn{
-	max-width:50%;
-	padding:20px;
-	background:#F15C22;
-	color:#FFF;
+.btnFlex .btn{	
+	display: block;
+    padding: 20px;
+    background: #F15C22;
+    color: #FFF;
+    width: 100%;
+    margin-right: 15px;
+}
+.btnFlex .btn:last-child{
+	margin-right:0;
+	margin-left:15px;
 }
