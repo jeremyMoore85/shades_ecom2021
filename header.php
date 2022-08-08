@@ -152,7 +152,10 @@ jQuery(function () {
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-lg-8 col-lg-offset-2">
-				<h2>Request a Swatch</h2>
+				<div class="swatchCnt">
+					<h2>Request a Swatch - <?php echo get_the_title(); ?></h2>
+					<?php echo do_shortcode('[contact-form-7 id="17711" title="Request A Swatch"]'); ?>
+				</div>				
 			</div>
 		</div>
 		</div>
