@@ -1685,3 +1685,18 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 			top: 2.5rem;
 		}
 	}
+.swatchCnt{
+	background: #666;
+    padding: 30px;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFF;
+}
+.swatchCnt h2{
+	color:#FFF;
+}
+.swatchCnt h2 span{
+	clear:both;
+	font-size:1.2rem;
+	font-style:italic;
+}
