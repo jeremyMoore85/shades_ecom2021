@@ -1700,3 +1700,10 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 	font-size:1.2rem;
 	font-style:italic;
 }
+.swatchCnt .btn{
+	background:#F15C22;
+	color:#fff;
+}
+.swatchCnt .form-hidden{
+	display:none;
+}
