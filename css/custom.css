@@ -1691,6 +1691,7 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
     border-radius: 6px;
     text-align: center;
     color: #FFF;
+	position:relative;
 }
 .swatchCnt h2{
 	color: #FFF;
