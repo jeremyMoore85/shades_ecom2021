@@ -148,11 +148,13 @@ jQuery(function () {
 <?php endif; ?>
 <?php if($_GET['test'] == true): ?>
 <div class="popupHolder" id="swatchPopup">
+	<div class="popupFlex">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-lg-8 col-lg-offset-2">
 				<h2>Request a Swatch</h2>
 			</div>
+		</div>
 		</div>
 	</div>
 </div>	
