@@ -98,12 +98,14 @@ jQuery(document).ready(function($){
 	}
 	$('#swatchBtn').click(function(){
 		$('#swatchPopup').show();
+		$('#swatchPopup .form-hidden').val('<?php echo get_the_title(); ?>');
 	});
 	$('#swatchPopup .popupClose').click(function(){
 		$('#swatchPopup').hide();
 	});
 	$('#questionsBtn').click(function(){
 		$('#questionsPopup').show();
+		$('#questionsPopup .form-hidden').val('<?php echo get_the_title(); ?>');
 	});
 	$('#questionsPopup .popupClose').click(function(){
 		$('#questionsPopup').hide();
