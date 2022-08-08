@@ -1241,6 +1241,8 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 }
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
 	background:#BF2E1A;
+	padding:16px 0;
+	font-size:18px;
 }
 .woocommerce input.qty{
 	margin-bottom:1rem;
@@ -1706,6 +1708,9 @@ body.admin-bar #wprmenu_menu.left, body.admin-bar #wprmenu_menu.right{
 .swatchCnt .btn{
 	background:#F15C22;
 	color:#fff;
+	padding:16px 0;
+	display:block;
+	font-size:18px;
 }
 .swatchCnt .form-hidden{
 	display:none;
