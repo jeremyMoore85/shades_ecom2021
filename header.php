@@ -197,13 +197,13 @@ jQuery(function () {
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
 			<li> <img src="/blog/wp-content/uploads/2022/05/aniversary-michelle-main.jpg" alt="Shades of Sleep - Cambridge" />
-				<div class="caption"><span class="slide_txt3">SLEEPWEAR SALE</span><br />25% to 50% off selected brands</div>
+				<div class="caption"><span class="slide_txt3">SLEEPWEAR SALE</span><br /><span class="slide_txt4">25% to 50% off selected brands</span></div>
             </li>
             <li> <img src="/blog/wp-content/uploads/2022/05/wrap-up-banner.jpg" alt="Shades of Sleep - Cabana" />
-				<div class="caption"><span class="slide_txt3">SLEEPWEAR SALE</span><br />25% to 50% off selected brands</div>
+				<div class="caption"><span class="slide_txt3">SLEEPWEAR SALE</span><br /><span class="slide_txt4">25% to 50% off selected brands</span></div>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2022/05/13-aniversary-banner.jpg" alt="Shades of Sleep - Ayrtight" />
-				<div class="caption"><span class="slide_txt3">SLEEPWEAR SALE</span><br />25% to 50% off selected brands</div>
+				<div class="caption"><span class="slide_txt3">SLEEPWEAR SALE</span><br /><span class="slide_txt4">25% to 50% off selected brands</span></div>
             </li>
           </ul>
         </div>
