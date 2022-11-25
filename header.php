@@ -197,13 +197,13 @@ jQuery(function () {
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
 			<li> <img src="/blog/wp-content/uploads/2022/09/shades-of-sleep-kasmir.jpg" alt="Shades of Sleep - Cambridge" />
-				<div class="caption"><span class="slide_txt3">We are Passionate about Sleep!</span></div>
+				<div class="caption"><span class="slide_txt3">Black Friday to Cyber Monday Sleepwear Sale</span><br /><span class="slide_txt3">(Excluded -  Bedhead, Kate Spade, Diamond Tea, Dagsmejan)</span></div>
             </li>
             <li> <img src="/blog/wp-content/uploads/2022/09/shades-of-sleep-dagsmean.jpg" alt="Shades of Sleep - Cabana" />
-				<div class="caption"><span class="slide_txt3">We are Passionate about Sleep!</span></div>
+				<div class="caption"><span class="slide_txt3">Black Friday to Cyber Monday Sleepwear Sale</span><br /><span class="slide_txt3">(Excluded -  Bedhead, Kate Spade, Diamond Tea, Dagsmejan)</span></div>
             </li>
 			<li> <img src="/blog/wp-content/uploads/2022/09/shades-of-sleep-fall-fashion.jpg" alt="Shades of Sleep - Ayrtight" />
-				<div class="caption"><span class="slide_txt3">We are Passionate about Sleep!</span></div>
+				<div class="caption"><span class="slide_txt3">Black Friday to Cyber Monday Sleepwear Sale</span><br /><span class="slide_txt3">(Excluded -  Bedhead, Kate Spade, Diamond Tea, Dagsmejan)</span></div>
             </li>
           </ul>
         </div>
