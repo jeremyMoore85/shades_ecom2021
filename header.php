@@ -196,13 +196,13 @@ jQuery(function () {
 	<div class="slider_main">
         <div class="callbacks_container">
           <ul class="rslides" id="slider4">
-			<li> <img src="/blog/wp-content/uploads/2022/09/shades-of-sleep-kasmir.jpg" alt="Shades of Sleep - Cambridge" />
+			<li> <img src="/blog/wp-content/uploads/2022/12/shades-of-sleep-pajamas-banner.jpg" alt="Shades of Sleep - Cambridge" />
 				<div class="caption"><span class="slide_txt3">Season’s Greetings from our family to yours!</span></div>
             </li>
-            <li> <img src="/blog/wp-content/uploads/2022/09/shades-of-sleep-dagsmean.jpg" alt="Shades of Sleep - Cabana" />
+            <li> <img src="/blog/wp-content/uploads/2022/12/shades-of-sleep-sleepwear-banner.jpg" alt="Shades of Sleep - Cabana" />
 				<div class="caption"><span class="slide_txt3">Season’s Greetings from our family to yours!</span></div>
             </li>
-			<li> <img src="/blog/wp-content/uploads/2022/09/shades-of-sleep-fall-fashion.jpg" alt="Shades of Sleep - Ayrtight" />
+			<li> <img src="/blog/wp-content/uploads/2022/12/shades-of-sleep-st-geneve-contessa-banner.jpg" alt="Shades of Sleep - Ayrtight" />
 				<div class="caption"><span class="slide_txt3">Season’s Greetings from our family to yours!</span></div>
             </li>
           </ul>
